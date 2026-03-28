@@ -9,7 +9,7 @@ import KnowledgeSection from "./KnowledgeSection";
 import UpsellSection from "./UpsellSection";
 import FortuneWheel from "./FortuneWheel";
 import RestartScreen from "./RestartScreen";
-import "./Learning.css";
+import '../styles/Learning.css';
 
 function CircleProgress({ pct, size = 40, stroke = 3 }) {
   const r = (size - stroke * 2) / 2;

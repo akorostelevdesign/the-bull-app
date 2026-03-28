@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Bell, Moon, Globe, Shield, LogOut, ChevronRight, Info, Utensils, TrendingUp } from 'lucide-react';
 import Card from '../components/Card';
 import Button from '../components/Button';
-import './Settings.css';
+import '../styles/Settings.css';
 
 const iconStyle = { color: 'var(--text-main)' };
 

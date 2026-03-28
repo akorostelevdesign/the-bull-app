@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { UPSELL_RULES } from '../data/upsell-rules';
 import { useUpsellSettings } from '../hooks/useUpsellSettings';
-import './CourseSettings.css';
+import '../styles/CourseSettings.css';
 
 export default function UpsellSettings() {
     const navigate = useNavigate();

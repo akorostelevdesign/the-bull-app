@@ -1,4 +1,4 @@
-import './Learning.css';
+import '../styles/Learning.css';
 
 // Shown when lives = 0 OR deadline expired
 export default function RestartScreen({ reason, onRestart }) {

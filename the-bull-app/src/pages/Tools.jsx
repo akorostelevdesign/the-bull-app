@@ -5,7 +5,7 @@ import { useOrder } from '../contexts/OrderContext';
 import Card from '../components/Card';
 import Input from '../components/Input';
 import Button from '../components/Button';
-import './Tools.css';
+import '../styles/Tools.css';
 
 const POPULAR = ['Стейк Рибай', 'Борщ', 'Цезарь', 'Лимонад', 'Бургер'];
 

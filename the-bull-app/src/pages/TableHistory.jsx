@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useOrder } from '../contexts/OrderContext';
 import { ChevronLeft, ChevronRight, Clock, Receipt } from 'lucide-react';
 import Card from '../components/Card';
-import './TableHistory.css';
+import '../styles/TableHistory.css';
 
 function formatDate(iso) {
     const d = new Date(iso);

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { Search } from 'lucide-react';
-import './Input.css';
+import '../styles/Input.css';
 
 const Input = forwardRef(({
     type = 'text',

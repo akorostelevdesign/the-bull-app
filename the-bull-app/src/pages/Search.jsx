@@ -3,7 +3,7 @@ import { Search as SearchIcon, Filter } from 'lucide-react';
 import { dishes, categories } from '../data/db';
 import Input from '../components/Input';
 import Card from '../components/Card';
-import './Search.css';
+import '../styles/Search.css';
 
 export default function Search() {
     const [query, setQuery] = useState('');

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { User, Wrench, Search, BookOpen, Settings, LayoutGrid } from 'lucide-react';
-import './BottomNav.css';
+import '../styles/BottomNav.css';
 
 export default function BottomNav() {
     const navItems = [

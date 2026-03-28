@@ -24,7 +24,7 @@ import {
     arrayMove,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import './Table.css';
+import '../styles/Table.css';
 
 function SortableItem({ id, children }) {
     const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id });

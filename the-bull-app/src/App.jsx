@@ -10,7 +10,7 @@ import Table from './pages/Table';
 import CourseSettings from './pages/CourseSettings';
 import UpsellSettings from './pages/UpsellSettings';
 import TableHistory from './pages/TableHistory';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (

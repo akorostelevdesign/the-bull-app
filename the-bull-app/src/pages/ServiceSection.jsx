@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { BookOpen, CheckSquare, Clock, ChevronLeft, Check, X } from 'lucide-react';
 import { SERVICE_STEPS, TICKET_TIME_QUESTIONS } from '../data/learning-content';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 

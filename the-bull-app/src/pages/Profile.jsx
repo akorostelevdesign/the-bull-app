@@ -6,7 +6,7 @@ import Modal from '../components/Modal';
 import Input from '../components/Input';
 import { useOrder } from '../contexts/OrderContext';
 import { User, Calculator, Edit2, TrendingUp, LayoutGrid, ChevronLeft, ChevronRight, Flame, Camera, History, RotateCcw } from 'lucide-react';
-import './Profile.css';
+import '../styles/Profile.css';
 
 const MONTHS_RU = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
     'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];

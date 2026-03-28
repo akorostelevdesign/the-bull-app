@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Learning.css';
+import '../styles/Learning.css';
 
 const COURSE_OPTIONS = [
   { value: 7,  title: '7 дней',  desc: 'Быстрый старт — минимальный курс' },

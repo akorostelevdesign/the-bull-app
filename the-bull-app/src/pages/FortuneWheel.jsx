@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Sectors ──────────────────────────────────────────────────────────────────
 // Probabilities must sum to 1.0

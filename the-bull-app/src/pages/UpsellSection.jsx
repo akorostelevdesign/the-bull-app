@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ChevronLeft, Check, X, Star } from 'lucide-react';
 import { KITCHEN_DISHES } from '../data/kitchen-dishes';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Upsell data ──────────────────────────────────────────────────────────────
 // For each main dish category, define what can be upsold

@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { BookOpen, Layers, Zap, MessageSquare, ChevronLeft, X, Check, Star } from 'lucide-react';
 import { BAR_DRINKS } from '../data/bar-drinks';
 import { ORDER_SIMULATIONS } from '../data/learning-content';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 

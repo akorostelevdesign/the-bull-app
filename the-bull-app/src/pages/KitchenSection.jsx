@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { BookOpen, Layers, HelpCircle, Zap, MessageSquare, ChevronLeft, X, Check, Star } from 'lucide-react';
 import { KITCHEN_DISHES } from '../data/kitchen-dishes';
 import { ORDER_SIMULATIONS } from '../data/learning-content';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 

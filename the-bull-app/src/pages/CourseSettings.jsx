@@ -3,7 +3,7 @@ import { Clock } from 'lucide-react';
 import { useOrder } from '../contexts/OrderContext';
 import { UPSELL_RULES } from '../data/upsell-rules';
 import { useUpsellSettings } from '../hooks/useUpsellSettings';
-import './CourseSettings.css';
+import '../styles/CourseSettings.css';
 
 const COURSE_LABELS = {
     0: { label: 'Нулевой курс', sub: 'Напитки' },

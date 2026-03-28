@@ -6,7 +6,7 @@ import {
 import {
   KNOWLEDGE_TOPICS, ROASTING_LEVELS, SWIPE_CARDS, LAST_STEPS, LATTE_STEPS,
 } from '../data/learning-content';
-import './Learning.css';
+import '../styles/Learning.css';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 

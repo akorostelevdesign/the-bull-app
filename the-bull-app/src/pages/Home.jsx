@@ -6,7 +6,7 @@ import Card from '../components/Card';
 import Button from '../components/Button';
 import Modal from '../components/Modal';
 import Input from '../components/Input';
-import './Home.css';
+import '../styles/Home.css';
 
 export default function Home() {
     const { tables, addTable, updateTable, removeTable, clearTable, updateOrderStatus } = useOrder();
