@@ -10,29 +10,32 @@ import Table from './pages/Table';
 import CourseSettings from './pages/CourseSettings';
 import UpsellSettings from './pages/UpsellSettings';
 import TableHistory from './pages/TableHistory';
+import { OnboardingProvider } from './contexts/OnboardingContext';
 import './styles/App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="app-container">
-        <main className="content-area">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/table/:id" element={<Table />} />
-            <Route path="/search" element={<Search />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/tools" element={<Tools />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/learning" element={<Learning />} />
-            <Route path="/course-settings" element={<CourseSettings />} />
-            <Route path="/upsell-settings" element={<UpsellSettings />} />
-            <Route path="/table-history" element={<TableHistory />} />
-          </Routes>
-        </main>
-        <BottomNav />
-      </div>
-    </Router>
+    <OnboardingProvider>
+      <Router>
+        <div className="app-container">
+          <main className="content-area">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/table/:id" element={<Table />} />
+              <Route path="/search" element={<Search />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/tools" element={<Tools />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/learning" element={<Learning />} />
+              <Route path="/course-settings" element={<CourseSettings />} />
+              <Route path="/upsell-settings" element={<UpsellSettings />} />
+              <Route path="/table-history" element={<TableHistory />} />
+            </Routes>
+          </main>
+          <BottomNav />
+        </div>
+      </Router>
+    </OnboardingProvider>
   );
 }
 

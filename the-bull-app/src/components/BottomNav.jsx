@@ -4,11 +4,11 @@ import '../styles/BottomNav.css';
 
 export default function BottomNav() {
     const navItems = [
-        { name: 'Профиль', path: '/profile', icon: User },
-        { name: 'Инструменты', path: '/tools', icon: Wrench },
-        { name: 'Столы', path: '/', icon: LayoutGrid },
-        { name: 'Изучение', path: '/learning', icon: BookOpen },
-        { name: 'Настройки', path: '/settings', icon: Settings },
+        { name: 'Профиль', path: '/profile', icon: User, tutorial: 'profile' },
+        { name: 'Инструменты', path: '/tools', icon: Wrench, tutorial: 'menu' },
+        { name: 'Столы', path: '/', icon: LayoutGrid, tutorial: 'menu' },
+        { name: 'Изучение', path: '/learning', icon: BookOpen, tutorial: 'learning' },
+        { name: 'Настройки', path: '/settings', icon: Settings, tutorial: 'settings' },
     ];
 
     return (
@@ -20,6 +20,7 @@ export default function BottomNav() {
                         key={item.path}
                         to={item.path}
                         className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+                        data-tutorial={item.tutorial}
                     >
                         <Icon size={24} className="nav-icon" />
                         <span className="nav-label">{item.name}</span>
