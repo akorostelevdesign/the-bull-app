@@ -1,0 +1,312 @@
+.home-page {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+/* ─── Ambient Background ─── */
+.ambient-glow {
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.12;
+    pointer-events: none;
+}
+
+.g-1 {
+    top: -100px;
+    right: -80px;
+    background: var(--primary-red);
+}
+
+.g-2 {
+    bottom: 80px;
+    left: -100px;
+    background: #2196F3;
+}
+
+/* ─── V3 Header & Tabs (Redesign) ─── */
+.header-row-v3 {
+    padding: 32px 20px 20px;
+    display: flex;
+    justify-content: flex-end; /* Group actions on the right or as a row */
+}
+
+.header-actions-group {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Small gap between title-button and plus-button */
+    width: 100%; /* Or let it naturally grow */
+}
+
+.title-fake-button {
+    flex: 1; /* Stretch to occupy the available space like a button */
+    height: 48px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -0.5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-plus-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--primary-red);
+    box-shadow: 0 8px 16px rgba(211, 47, 47, 0.3);
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.header-plus-btn:active {
+    transform: scale(0.9);
+}
+
+/* ─── V3 View Selector ─── */
+.view-selector-v3 {
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.nav-chip-v3 {
+    flex: 1; /* Stretch all three evenly to fill the width */
+    height: 44px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.nav-chip-v3.active {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cat-badge {
+    background: var(--primary-red);
+    color: white;
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+/* ─── Main Content ─── */
+.home-content {
+    padding: 0 20px;
+}
+
+.tables-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* ─── Table Card V2 ─── */
+.table-card-v2 {
+    position: relative;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 20px !important;
+    padding: 16px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.table-card-v2.active {
+    background: rgba(211, 47, 47, 0.08) !important;
+    border-color: rgba(211, 47, 47, 0.4) !important;
+}
+
+.t-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.t-card-number {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.t-card-price {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--primary-red);
+}
+
+.t-card-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.stat-mini {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stat-bar {
+    flex: 1;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+}
+
+.stat-fill {
+    height: 100%;
+}
+
+.stat-fill.kitchen {
+    background: var(--primary-red);
+}
+
+.stat-fill.bar {
+    background: #2196F3;
+}
+
+.stat-text {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+.t-card-status {
+    font-size: 12px;
+    color: var(--text-secondary);
+    opacity: 0.5;
+}
+
+/* ─── Empty States ─── */
+.main-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.empty-icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+
+.empty-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.empty-desc {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    max-width: 240px;
+}
+
+.create-first-btn {
+    padding: 0 32px !important;
+    height: 48px !important;
+    background: var(--primary-red) !important;
+}
+
+/* ─── Queue Card ─── */
+.queue-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.q-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.q-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.q-complete-btn {
+    padding: 6px 12px;
+    background: rgba(76, 175, 80, 0.1);
+    color: #4caf50;
+    border: 1px solid rgba(76, 175, 80, 0.2);
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.empty-queue-v2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* ─── Animations ─── */
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

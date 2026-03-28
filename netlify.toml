@@ -1,0 +1,3 @@
+[build]
+  command = "cd the-bull-app && npm install && npm run build"
+  publish = "the-bull-app/dist"
