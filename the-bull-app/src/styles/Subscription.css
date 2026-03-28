@@ -1,0 +1,439 @@
+/* ─────────────────────────────────────────────────────────────────────
+   SUBSCRIPTION PAGE - Pricing Plans and Feature Comparison
+   ───────────────────────────────────────────────────────────────────── */
+
+.subscription-page {
+  padding: 20px;
+  animation: fadeInPage 0.3s ease-out forwards;
+}
+
+/* ─── Header ─── */
+.subscription-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subscription-header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.subscription-header p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.current-status {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.status-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: rgba(211, 47, 47, 0.1);
+  border: 1px solid rgba(211, 47, 47, 0.2);
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.status-tier {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.expiring-soon {
+  color: var(--primary-red);
+  font-weight: 700;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ─── Pricing Grid ─── */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+/* ─── Pricing Card ─── */
+.pricing-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: slideInFromBottom 0.5s ease-out;
+}
+
+.pricing-card:hover:not(.current) {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card.current {
+  background: rgba(211, 47, 47, 0.08);
+  border-color: var(--primary-red);
+  box-shadow: 0 0 20px rgba(211, 47, 47, 0.2);
+}
+
+.pricing-card.recommended {
+  transform: scale(1.05);
+}
+
+/* ─── Recommended Badge ─── */
+.recommended-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary-red);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px var(--primary-red-glow);
+}
+
+/* ─── Tier Name ─── */
+.tier-name {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: var(--text-main);
+}
+
+/* ─── Price Section ─── */
+.price-section {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--primary-red);
+}
+
+.currency {
+  font-size: 18px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.period {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-left: 4px;
+}
+
+/* ─── Features List ─── */
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.feature-icon {
+  color: var(--primary-red);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ─── Tier Button ─── */
+.tier-button {
+  padding: 14px 24px;
+  background: var(--primary-red);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+  box-shadow: 0 4px 15px var(--primary-red-glow);
+}
+
+.tier-button:hover:not(.disabled) {
+  box-shadow: 0 6px 20px var(--primary-red-glow);
+  transform: translateY(-2px);
+}
+
+.tier-button:active:not(.disabled) {
+  transform: scale(0.96);
+}
+
+.tier-button.current-tier {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-main);
+  box-shadow: none;
+  cursor: default;
+}
+
+.tier-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ─── Feature Comparison ─── */
+.feature-comparison {
+  margin-bottom: 60px;
+}
+
+.feature-comparison h3 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--text-main);
+}
+
+.comparison-table {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.comparison-header,
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 1fr);
+  gap: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.feature-name,
+.tier-column {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.comparison-header .feature-name {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+.comparison-header .tier-column {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-main);
+}
+
+.check-icon {
+  color: #4caf50;
+}
+
+.x-icon {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* ─── FAQ Section ─── */
+.subscription-faq {
+  margin-bottom: 40px;
+}
+
+.subscription-faq h3 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--text-main);
+}
+
+.faq-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.faq-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.faq-item h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── Modal ─── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: fadeInPage 0.2s ease-out;
+}
+
+.modal-content {
+  background: rgba(30, 32, 36, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 400px;
+  width: 100%;
+  animation: slideUpResults 0.3s ease-out;
+}
+
+.modal-content h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: var(--text-main);
+}
+
+.modal-content p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.price-info {
+  background: rgba(211, 47, 47, 0.1);
+  border: 1px solid rgba(211, 47, 47, 0.2);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.price-info strong {
+  color: var(--primary-red);
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn-cancel,
+.btn-confirm {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.btn-cancel {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-main);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-cancel:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-confirm {
+  background: var(--primary-red);
+  color: white;
+  box-shadow: 0 4px 12px var(--primary-red-glow);
+}
+
+.btn-confirm:hover {
+  box-shadow: 0 6px 16px var(--primary-red-glow);
+}
+
+.btn-confirm:active {
+  transform: scale(0.96);
+}
+
+/* ─── Light Theme ─── */
+body.light .pricing-card {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .pricing-card:hover:not(.current) {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+body.light .pricing-card.current {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light .comparison-table {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .faq-item {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .modal-content {
+  background: rgba(232, 232, 237, 0.95);
+  border-color: rgba(0, 0, 0, 0.1);
+}
