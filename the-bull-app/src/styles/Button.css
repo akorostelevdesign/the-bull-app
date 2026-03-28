@@ -8,10 +8,14 @@
     border: none;
     border-radius: var(--radius-sm);
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     user-select: none;
     -webkit-tap-highlight-color: transparent;
     outline: none;
+    min-height: 44px;
+    min-width: 44px;
+    position: relative;
+    overflow: hidden;
 }
 
 .btn:disabled {
@@ -34,12 +38,14 @@
     padding: 12px 24px;
     font-size: 16px;
     border-radius: var(--radius-md);
+    min-height: 44px;
 }
 
 .btn-lg {
     padding: 16px 32px;
     font-size: 18px;
     border-radius: var(--radius-md);
+    min-height: 48px;
 }
 
 /* Variants */
@@ -49,9 +55,18 @@
     box-shadow: 0 4px 15px var(--primary-red-glow);
 }
 
+.btn-primary:hover {
+    box-shadow: 0 6px 20px var(--primary-red-glow);
+}
+
 .btn-primary:active {
-    transform: scale(0.98);
+    transform: scale(0.96);
     box-shadow: 0 2px 8px var(--primary-red-glow);
+}
+
+.btn-primary:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
 }
 
 .btn-secondary {
@@ -62,10 +77,20 @@
     color: white;
 }
 
+.btn-secondary:hover {
+    background: var(--bg-card-hover);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
 .btn-secondary:active {
     background: var(--bg-card-hover);
     border-color: var(--primary-red);
-    transform: scale(0.98);
+    transform: scale(0.96);
+}
+
+.btn-secondary:focus-visible {
+    outline: 2px solid var(--primary-red);
+    outline-offset: 2px;
 }
 
 .btn-ghost {
@@ -73,7 +98,17 @@
     color: var(--text-secondary);
 }
 
+.btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-main);
+}
+
 .btn-ghost:active {
     background: rgba(255, 255, 255, 0.05);
-    transform: scale(0.98);
+    transform: scale(0.96);
+}
+
+.btn-ghost:focus-visible {
+    outline: 2px solid var(--primary-red);
+    outline-offset: 2px;
 }

@@ -12,26 +12,42 @@
     padding: 16px 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 44px;
+    border-radius: 8px;
+    margin: 4px 0;
 }
 
 .setting-item:last-child {
     border-bottom: none;
 }
 
+.setting-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
 .setting-item:active {
     background: rgba(255, 255, 255, 0.05);
+    transform: scale(0.99);
 }
 
 .setting-icon-container {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     background: rgba(255, 255, 255, 0.03);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.setting-item:hover .setting-icon-container {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 .setting-info {
@@ -53,12 +69,14 @@
 
 /* Toggle Switch */
 .toggle-switch {
-    width: 44px;
-    height: 24px;
+    width: 48px;
+    height: 28px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 14px;
     position: relative;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex-shrink: 0;
 }
 
 .toggle-switch.active {
@@ -66,19 +84,20 @@
 }
 
 .toggle-knob {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     background: white;
     border-radius: 50%;
     position: absolute;
     top: 2px;
     left: 2px;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .toggle-switch.active .toggle-knob {
     transform: translateX(20px);
+    box-shadow: 0 2px 8px rgba(211, 47, 47, 0.3);
 }
 
 .logout-btn {
