@@ -10,6 +10,7 @@ import Table from './pages/Table';
 import CourseSettings from './pages/CourseSettings';
 import UpsellSettings from './pages/UpsellSettings';
 import TableHistory from './pages/TableHistory';
+import Subscription from './pages/Subscription';
 import { OnboardingProvider } from './contexts/OnboardingContext';
 import './styles/App.css';
 
@@ -30,6 +31,7 @@ function App() {
               <Route path="/course-settings" element={<CourseSettings />} />
               <Route path="/upsell-settings" element={<UpsellSettings />} />
               <Route path="/table-history" element={<TableHistory />} />
+              <Route path="/subscription" element={<Subscription />} />
             </Routes>
           </main>
           <BottomNav />

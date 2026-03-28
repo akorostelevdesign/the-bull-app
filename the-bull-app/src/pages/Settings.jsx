@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Bell, Moon, Globe, Shield, LogOut, ChevronRight, Info, Utensils, TrendingUp } from 'lucide-react';
+import { Bell, Moon, Globe, Shield, LogOut, ChevronRight, Info, Utensils, TrendingUp, CreditCard, HelpCircle } from 'lucide-react';
 import Card from '../components/Card';
 import Button from '../components/Button';
 import '../styles/Settings.css';
@@ -66,6 +66,16 @@ export default function Settings() {
             <div className="settings-section">
                 <h2 className="section-title">Приложение</h2>
                 <div className="settings-list glass-panel">
+                    <div className="setting-item" onClick={() => navigate('/subscription')}>
+                        <div className="setting-icon-container">
+                            <CreditCard size={20} style={iconStyle} />
+                        </div>
+                        <div className="setting-info">
+                            <span className="setting-label">Подписка</span>
+                            <span className="setting-desc">Управление тарифом и функциями</span>
+                        </div>
+                        <ChevronRight size={18} className="text-secondary" />
+                    </div>
                     <div className="setting-item" onClick={() => toggleSetting('notifications')}>
                         <div className="setting-icon-container">
                             <Bell size={20} style={iconStyle} />
@@ -92,11 +102,11 @@ export default function Settings() {
                     </div>
                     <div className="setting-item">
                         <div className="setting-icon-container">
-                            <Globe size={20} style={iconStyle} />
+                            <HelpCircle size={20} style={iconStyle} />
                         </div>
                         <div className="setting-info">
-                            <span className="setting-label">Язык</span>
-                            <span className="setting-desc">{settings.language === 'ru' ? 'Русский' : 'English'}</span>
+                            <span className="setting-label">Обучающий тур</span>
+                            <span className="setting-desc">Показать подсказки снова</span>
                         </div>
                         <ChevronRight size={18} className="text-secondary" />
                     </div>
