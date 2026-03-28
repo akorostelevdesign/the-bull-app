@@ -1,0 +1,327 @@
+/* ─────────────────────────────────────────────────────────────────────
+   LESSON CARD - Story-Driven Learning Component
+   ───────────────────────────────────────────────────────────────────── */
+
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  animation: fadeInPage 0.3s ease-out forwards;
+}
+
+/* ─── Header ─── */
+.lesson-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lesson-back-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lesson-back-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-main);
+}
+
+.lesson-back-btn:active {
+  transform: scale(0.96);
+}
+
+/* ─── Lives Display ─── */
+.lesson-lives {
+  display: flex;
+  gap: 8px;
+}
+
+.heart-full {
+  color: var(--primary-red);
+  filter: drop-shadow(0 0 4px var(--primary-red-glow));
+  animation: heartBeat 0.6s ease-out;
+}
+
+.heart-empty {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes heartBeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+}
+
+/* ─── Progress Bar ─── */
+.lesson-progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lesson-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.lesson-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-red), #FF9999);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.lesson-progress-text {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  min-width: 40px;
+  text-align: right;
+}
+
+/* ─── Title Section ─── */
+.lesson-title-section {
+  margin-top: 8px;
+}
+
+.lesson-title {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+.lesson-description {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ─── Scenario Box ─── */
+.lesson-scenario {
+  background: rgba(211, 47, 47, 0.08);
+  border: 1px solid rgba(211, 47, 47, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.scenario-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.scenario-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+/* ─── Question ─── */
+.lesson-question {
+  margin: 12px 0;
+}
+
+.lesson-question h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.4;
+}
+
+/* ─── Answer Options ─── */
+.lesson-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lesson-option {
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 44px;
+}
+
+.lesson-option:hover:not(.disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateX(4px);
+}
+
+.lesson-option:active:not(.disabled) {
+  transform: scale(0.98);
+}
+
+.lesson-option.disabled {
+  cursor: not-allowed;
+}
+
+.lesson-option.correct {
+  background: rgba(76, 175, 80, 0.1);
+  border-color: rgba(76, 175, 80, 0.3);
+  color: #4caf50;
+}
+
+.lesson-option.incorrect {
+  background: rgba(211, 47, 47, 0.1);
+  border-color: rgba(211, 47, 47, 0.3);
+  color: var(--primary-red);
+}
+
+.option-text {
+  flex: 1;
+}
+
+.option-feedback {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* ─── Feedback Section ─── */
+.lesson-feedback {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  animation: slideInFromBottom 0.3s ease-out;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lesson-feedback.success {
+  background: rgba(76, 175, 80, 0.08);
+  border-color: rgba(76, 175, 80, 0.2);
+}
+
+.lesson-feedback.error {
+  background: rgba(211, 47, 47, 0.08);
+  border-color: rgba(211, 47, 47, 0.2);
+}
+
+.feedback-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.feedback-explanation {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.feedback-tip {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--primary-red);
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+.feedback-tip strong {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: var(--primary-red);
+}
+
+.feedback-tip p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ─── Next Button ─── */
+.lesson-next-btn {
+  background: var(--primary-red);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  box-shadow: 0 4px 15px var(--primary-red-glow);
+  animation: slideInFromBottom 0.3s ease-out;
+}
+
+.lesson-next-btn:hover {
+  box-shadow: 0 6px 20px var(--primary-red-glow);
+  transform: translateY(-2px);
+}
+
+.lesson-next-btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 2px 8px var(--primary-red-glow);
+}
+
+/* ─── Light Theme ─── */
+body.light .lesson-scenario {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .lesson-option {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+body.light .lesson-option:hover:not(.disabled) {
+  background: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+body.light .lesson-feedback {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.1);
+}

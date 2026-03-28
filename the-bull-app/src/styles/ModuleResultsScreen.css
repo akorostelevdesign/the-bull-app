@@ -1,0 +1,452 @@
+/* ─────────────────────────────────────────────────────────────────────
+   MODULE RESULTS SCREEN - Celebratory Achievement Display
+   ───────────────────────────────────────────────────────────────────── */
+
+.results-screen {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* ─── Background Animation ─── */
+.results-bg-glow {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(211, 47, 47, 0.15) 0%,
+    transparent 70%
+  );
+  animation: glowPulse 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+/* ─── Results Container ─── */
+.results-container {
+  position: relative;
+  z-index: 10;
+  background: rgba(30, 32, 36, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 32px 24px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUpResults 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes slideUpResults {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─── Results Header ─── */
+.results-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.results-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(211, 47, 47, 0.1);
+  border: 2px solid rgba(211, 47, 47, 0.3);
+  border-radius: 50%;
+  animation: iconBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes iconBounce {
+  0% {
+    transform: scale(0.5) rotateZ(-10deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1) rotateZ(5deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+  }
+}
+
+.trophy-icon {
+  color: var(--primary-red);
+  filter: drop-shadow(0 0 10px var(--primary-red-glow));
+  animation: trophyGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes trophyGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px var(--primary-red-glow));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px var(--primary-red-glow));
+  }
+}
+
+.retry-icon {
+  font-size: 40px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.results-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.results-subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* ─── Score Section ─── */
+.results-score-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.score-circle {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--primary-red) 0deg,
+    var(--primary-red) 270deg,
+    rgba(255, 255, 255, 0.05) 270deg
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(211, 47, 47, 0.2);
+  animation: scoreRotate 0.8s ease-out;
+}
+
+@keyframes scoreRotate {
+  from {
+    transform: scale(0.5) rotateZ(-90deg);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+  }
+}
+
+.score-percentage {
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+}
+
+.score-label {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.score-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.score-detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.detail-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.detail-value {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.detail-value.correct {
+  color: #4caf50;
+}
+
+.detail-value.incorrect {
+  color: var(--primary-red);
+}
+
+/* ─── Module Info ─── */
+.results-module-info {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.module-badge {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.module-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: var(--text-main);
+}
+
+.module-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* ─── Promo Code Section ─── */
+.results-promo-section {
+  background: linear-gradient(135deg, rgba(211, 47, 47, 0.1), rgba(255, 255, 255, 0.02));
+  border: 2px solid rgba(211, 47, 47, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  animation: slideInFromBottom 0.5s ease-out 0.3s both;
+}
+
+.promo-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.promo-icon {
+  font-size: 24px;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.promo-header h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-red);
+  margin: 0;
+}
+
+.promo-description {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.promo-code-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.promo-code {
+  flex: 1;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--primary-red);
+  letter-spacing: 2px;
+  word-break: break-all;
+}
+
+.promo-copy-btn {
+  background: var(--primary-red);
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.promo-copy-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px var(--primary-red-glow);
+}
+
+.promo-copy-btn:active {
+  transform: scale(0.95);
+}
+
+.promo-hint {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin: 0;
+}
+
+/* ─── Feedback Message ─── */
+.results-feedback {
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.results-feedback.success {
+  background: rgba(76, 175, 80, 0.08);
+  border-color: rgba(76, 175, 80, 0.2);
+}
+
+.results-feedback.retry {
+  background: rgba(211, 47, 47, 0.08);
+  border-color: rgba(211, 47, 47, 0.2);
+}
+
+.feedback-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-main);
+}
+
+.feedback-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── Action Buttons ─── */
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn-continue,
+.btn-retry {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-continue {
+  background: var(--primary-red);
+  color: white;
+  box-shadow: 0 4px 15px var(--primary-red-glow);
+}
+
+.btn-continue:hover {
+  box-shadow: 0 6px 20px var(--primary-red-glow);
+  transform: translateY(-2px);
+}
+
+.btn-continue:active {
+  transform: scale(0.96);
+}
+
+.btn-retry {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-main);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-retry:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.btn-retry:active {
+  transform: scale(0.96);
+}
+
+/* ─── Light Theme ─── */
+body.light .results-container {
+  background: rgba(232, 232, 237, 0.95);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .results-promo-section {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02));
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light .promo-code-box {
+  background: rgba(0, 0, 0, 0.05);
+}
