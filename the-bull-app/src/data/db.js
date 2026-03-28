@@ -7763,18 +7763,18 @@ const barDrinksData = {
 
 // Функция для получения всех напитков
 function getAllBarDrinks() {
-  return BAR_DRINKS_DATA.dishes;
+  return barDrinksData.dishes;
 }
 
 // Функция для получения напитков по категории
 function getBarDrinksByCategory(category) {
-  return BAR_DRINKS_DATA.dishes.filter(drink => drink.category === category);
+  return barDrinksData.dishes.filter(drink => drink.category === category);
 }
 
 // Функция для поиска напитков по названию
 function searchBarDrinks(query) {
   const lowerQuery = query.toLowerCase();
-  return BAR_DRINKS_DATA.dishes.filter(drink =>
+  return barDrinksData.dishes.filter(drink =>
     drink.name.toLowerCase().includes(lowerQuery) ||
     drink.description.some(desc => desc.toLowerCase().includes(lowerQuery)) ||
     drink.composition.some(comp => comp.toLowerCase().includes(lowerQuery))
@@ -7783,12 +7783,12 @@ function searchBarDrinks(query) {
 
 // Функция для получения напитка по R_keeper
 function getBarDrinkByRkeeper(rKeeper) {
-  return BAR_DRINKS_DATA.dishes.find(drink => drink.R_keeper === rKeeper);
+  return barDrinksData.dishes.find(drink => drink.R_keeper === rKeeper);
 }
 
 // Функция для получения всех категорий напитков
 function getAllBarDrinkCategories() {
-  const categories = [...new Set(BAR_DRINKS_DATA.dishes.map(drink => drink.category))];
+  const categories = [...new Set(barDrinksData.dishes.map(drink => drink.category))];
   return categories.sort();
 }
 
@@ -7797,47 +7797,30 @@ function addBarDrink(drink) {
   if (!drink.name || !drink.category) {
     throw new Error('Название и категория напитка обязательны');
   }
-
   if (!drink.image) {
     drink.image = "./images/default-drink.jpg";
   }
-
-  BAR_DRINKS_DATA.dishes.push(drink);
+  barDrinksData.dishes.push(drink);
   return drink;
 }
 
 // Функция для обновления напитка
 function updateBarDrink(rKeeper, updatedDrink) {
-  const index = BAR_DRINKS_DATA.dishes.findIndex(drink => drink.R_keeper === rKeeper);
+  const index = barDrinksData.dishes.findIndex(drink => drink.R_keeper === rKeeper);
   if (index !== -1) {
-    BAR_DRINKS_DATA.dishes[index] = { ...BAR_DRINKS_DATA.dishes[index], ...updatedDrink };
-    return BAR_DRINKS_DATA.dishes[index];
+    barDrinksData.dishes[index] = { ...barDrinksData.dishes[index], ...updatedDrink };
+    return barDrinksData.dishes[index];
   }
   return null;
 }
 
 // Функция для удаления напитка
 function deleteBarDrink(rKeeper) {
-  const index = BAR_DRINKS_DATA.dishes.findIndex(drink => drink.R_keeper === rKeeper);
+  const index = barDrinksData.dishes.findIndex(drink => drink.R_keeper === rKeeper);
   if (index !== -1) {
-    return BAR_DRINKS_DATA.dishes.splice(index, 1)[0];
+    return barDrinksData.dishes.splice(index, 1)[0];
   }
   return null;
-}
-
-// Экспорт для использования в других модулях
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    BAR_DRINKS_DATA,
-    getAllBarDrinks,
-    getBarDrinksByCategory,
-    searchBarDrinks,
-    getBarDrinkByRkeeper,
-    getAllBarDrinkCategories,
-    addBarDrink,
-    updateBarDrink,
-    deleteBarDrink
-  };
 }
 
 // Export for browser
