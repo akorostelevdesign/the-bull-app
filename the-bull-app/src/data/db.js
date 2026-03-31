@@ -70,29 +70,29 @@ const GASTRONOMY_CONFIG = {
     { id: 'well_done', name: 'Well Done', temp: '71-100°C', tip: 'Полная прожарка без розового цвета. Мясо может быть суховатым.', image: 'Pictures/Roasting/6. Steak Well Done.png' }
   ],
   sauces: [
-    { name: 'Перечный', price: 70, code: '341', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Сливочный с черным перцем. Для приятной остроты' },
-    { name: 'Брусничный', price: 70, code: '440', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Из св/м брусники. Идеальное кисло-сладкое дополнение' },
-    { name: 'Грибной', price: 70, code: '753', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Сливочный с шампиньонами. Отлично дополняет стейк' },
-    { name: 'Барбекю', price: 70, code: '342', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Дымный на томатной основе. Пряный и сбалансированный' },
-    { name: 'Black Pepper', price: 70, code: '1151', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Пряный соус с насыщенным вкусом перца' },
-    { name: 'Джек Дэниэлс', price: 70, code: '581', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Сладковатый соус с нотками бурбона' },
-    { name: 'Медово-горчичный', price: 70, code: '495', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Сладость меда и острота горчицы' },
-    { name: '1000 островов', price: 70, code: '366', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Томатный соус с майонезом и огурчиками' },
-    { name: 'Сладкий чили', price: 70, code: '368', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Легкая острота и приятная сладость' },
-    { name: 'Блю Чиз', price: 70, code: '493', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Пикантный соус с сыром с плесенью' },
-    { name: 'Сальса', price: 70, code: '494', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Острый томатный соус с чили' },
-    { name: 'Кетчуп', price: 70, code: '343', image: 'Pictures/menu/Соусы/Соусы.jpg', desc: 'Традиционный томатный соус со специями' }
+    { name: 'Перечный', price: 70, code: '341', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Сливочный с черным перцем. Для приятной остроты' },
+    { name: 'Брусничный', price: 70, code: '440', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Из св/м брусники. Идеальное кисло-сладкое дополнение' },
+    { name: 'Грибной', price: 70, code: '753', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Сливочный с шампиньонами. Отлично дополняет стейк' },
+    { name: 'Барбекю', price: 70, code: '342', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Дымный на томатной основе. Пряный и сбалансированный' },
+    { name: 'Black Pepper', price: 70, code: '1151', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Пряный соус с насыщенным вкусом перца' },
+    { name: 'Джек Дэниэлс', price: 70, code: '581', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Сладковатый соус с нотками бурбона' },
+    { name: 'Медово-горчичный', price: 70, code: '495', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Сладость меда и острота горчицы' },
+    { name: '1000 островов', price: 70, code: '366', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Томатный соус с майонезом и огурчиками' },
+    { name: 'Сладкий чили', price: 70, code: '368', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Легкая острота и приятная сладость' },
+    { name: 'Блю Чиз', price: 70, code: '493', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Пикантный соус с сыром с плесенью' },
+    { name: 'Сальса', price: 70, code: '494', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Острый томатный соус с чили' },
+    { name: 'Кетчуп', price: 70, code: '343', image: '/Pictures/menu/Соусы/Соусы.jpg', desc: 'Традиционный томатный соус со специями' }
   ],
   garnishes: [
-    { name: 'Брокколи', price: 400, code: '260', image: 'Pictures/menu/Гарниры/Брокколи.jpg' },
-    { name: 'Овощи гриль', price: 400, code: '261', image: 'Pictures/menu/Гарниры/Овощи-гриль.jpg' },
-    { name: 'Рис с овощами', price: 400, code: '262', image: 'Pictures/menu/Гарниры/Рис-с-овощами.jpg' },
-    { name: 'Картофель фри', price: 400, code: '233', image: 'Pictures/menu/Гарниры/Картофель-фри.jpg' },
-    { name: 'Картоф. батат', price: 400, code: '264', image: 'Pictures/menu/Гарниры/Картофель-батат-фри.jpg' },
-    { name: 'Фри с пармез.', price: 400, code: '265', image: 'Pictures/menu/Гарниры/Картофель-фри-с-пармезаном.jpg' },
-    { name: 'По-деревенски', price: 400, code: '266', image: 'Pictures/menu/Гарниры/Картофель-по-деревенски.jpg' },
-    { name: 'Дипперы', price: 400, code: '267', image: 'Pictures/menu/Гарниры/Картофель-диппер.jpg' },
-    { name: 'Картоф. пюре', price: 400, code: '268', image: 'Pictures/menu/Гарниры/Картофельное-пюре.jpg' }
+    { name: 'Брокколи', price: 400, code: '260', image: '/Pictures/menu/Гарниры/Брокколи.jpg' },
+    { name: 'Овощи гриль', price: 400, code: '261', image: '/Pictures/menu/Гарниры/Овощи-гриль.jpg' },
+    { name: 'Рис с овощами', price: 400, code: '262', image: '/Pictures/menu/Гарниры/Рис-с-овощами.jpg' },
+    { name: 'Картофель фри', price: 400, code: '233', image: '/Pictures/menu/Гарниры/Картофель-фри.jpg' },
+    { name: 'Картоф. батат', price: 400, code: '264', image: '/Pictures/menu/Гарниры/Картофель-батат-фри.jpg' },
+    { name: 'Фри с пармез.', price: 400, code: '265', image: '/Pictures/menu/Гарниры/Картофель-фри-с-пармезаном.jpg' },
+    { name: 'По-деревенски', price: 400, code: '266', image: '/Pictures/menu/Гарниры/Картофель-по-деревенски.jpg' },
+    { name: 'Дипперы', price: 400, code: '267', image: '/Pictures/menu/Гарниры/Картофель-диппер.jpg' },
+    { name: 'Картоф. пюре', price: 400, code: '268', image: '/Pictures/menu/Гарниры/Картофельное-пюре.jpg' }
   ]
 };
 
@@ -119,7 +119,7 @@ const dishesData = {
       "price": "700 рублей",
       "R_keeper": "334",
       "category": "Альтернативные стейки",
-      "image": "Pictures/menu/Альтернативные стейки/Стейк-Фланк.jpg",
+      "image": "/Pictures/menu/Альтернативные стейки/Стейк-Фланк.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -143,7 +143,7 @@ const dishesData = {
       "price": "700 рублей",
       "R_keeper": "182",
       "category": "Альтернативные стейки",
-      "image": "Pictures/menu/Альтернативные стейки/Стейк-Топ-Блейд.jpg",
+      "image": "/Pictures/menu/Альтернативные стейки/Стейк-Топ-Блейд.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -167,7 +167,7 @@ const dishesData = {
       "price": "700 рублей",
       "R_keeper": "213",
       "category": "Альтернативные стейки",
-      "image": "Pictures/menu/Альтернативные стейки/Стейк-Трай-Тип.jpg",
+      "image": "/Pictures/menu/Альтернативные стейки/Стейк-Трай-Тип.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -191,7 +191,7 @@ const dishesData = {
       "price": "700 рублей",
       "R_keeper": "258",
       "category": "Альтернативные стейки",
-      "image": "Pictures/menu/Альтернативные стейки/Спайдер-Стейк.jpg",
+      "image": "/Pictures/menu/Альтернативные стейки/Спайдер-Стейк.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -231,7 +231,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "169",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Вителло Тоннато.jpg",
+      "image": "/Pictures/menu/Закуски/Вителло Тоннато.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -257,7 +257,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "565",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Баклажаны-в-панировке.jpg",
+      "image": "/Pictures/menu/Закуски/Баклажаны-в-панировке.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -307,7 +307,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "534",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Куриные-стрипсы.jpg",
+      "image": "/Pictures/menu/Закуски/Куриные-стрипсы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -339,7 +339,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "193",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Креветки-в-кляре.jpg",
+      "image": "/Pictures/menu/Закуски/Креветки-в-кляре.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -370,7 +370,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "221",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Чесночные-грненки.jpg",
+      "image": "/Pictures/menu/Закуски/Чесночные-грненки.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -406,7 +406,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "483",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Крылья-куриные.jpg",
+      "image": "/Pictures/menu/Закуски/Крылья-куриные.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -445,7 +445,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "168",
       "category": "Закуски",
-      "image": "Pictures/menu/Прайм/Тартар-из-говядины.jpg",
+      "image": "/Pictures/menu/Прайм/Тартар-из-говядины.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -480,7 +480,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "790",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Тар-Тар-из-авокадо-с-креветками.jpg",
+      "image": "/Pictures/menu/Закуски/Тар-Тар-из-авокадо-с-креветками.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -521,7 +521,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "251",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Мясное-Плато.jpg",
+      "image": "/Pictures/menu/Закуски/Мясное-Плато.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -557,7 +557,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "250",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Сырное-плато.jpg",
+      "image": "/Pictures/menu/Закуски/Сырное-плато.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -587,7 +587,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "1085",
       "category": "Закуски",
-      "image": "Pictures/menu/Закуски/Карпаччо-денвер.jpg",
+      "image": "/Pictures/menu/Закуски/Карпаччо-денвер.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -618,7 +618,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "289",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Буррата-с-баклажанами.jpg",
+      "image": "/Pictures/menu/Салаты/Буррата-с-баклажанами.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -650,7 +650,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "549",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Зеленый-салат.jpg",
+      "image": "/Pictures/menu/Салаты/Зеленый-салат.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -681,7 +681,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "479",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/С-печеной-тыквой-и-фетой.jpg",
+      "image": "/Pictures/menu/Салаты/С-печеной-тыквой-и-фетой.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -709,7 +709,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "326",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Салат-с-Ростьифом.jpg",
+      "image": "/Pictures/menu/Салаты/Салат-с-Ростьифом.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -740,7 +740,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "675",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Салат-с-креветками-и-манго.jpg",
+      "image": "/Pictures/menu/Салаты/Салат-с-креветками-и-манго.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -766,7 +766,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "498",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Стейк-салат.jpg",
+      "image": "/Pictures/menu/Салаты/Стейк-салат.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -794,7 +794,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "810",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Салат-с-говяжьим-языком-и-ореховым.jpg",
+      "image": "/Pictures/menu/Салаты/Салат-с-говяжьим-языком-и-ореховым.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -829,7 +829,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "35",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Теплый-салат-с-цыпленком-соусом.jpg",
+      "image": "/Pictures/menu/Салаты/Теплый-салат-с-цыпленком-соусом.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -856,7 +856,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "330",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Томаты-со-страчателлой.jpg",
+      "image": "/Pictures/menu/Салаты/Томаты-со-страчателлой.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -885,7 +885,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "331",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Пастрами-салат.jpg",
+      "image": "/Pictures/menu/Салаты/Пастрами-салат.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -916,7 +916,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "260",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Цезарь-с-курицей.jpg",
+      "image": "/Pictures/menu/Салаты/Цезарь-с-курицей.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -948,7 +948,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "261",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Цезарь-с-креветками.jpg",
+      "image": "/Pictures/menu/Салаты/Цезарь-с-креветками.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -975,7 +975,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "256",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Витаминный-салат.jpg",
+      "image": "/Pictures/menu/Салаты/Витаминный-салат.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1008,7 +1008,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "262",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Греческий салат.jpg",
+      "image": "/Pictures/menu/Салаты/Греческий салат.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1036,7 +1036,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "243",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Капрезе.jpg",
+      "image": "/Pictures/menu/Салаты/Капрезе.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1067,7 +1067,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "990",
       "category": "Салат",
-      "image": "Pictures/menu/Салаты/Салат-БЫК-Тейсти.jpg",
+      "image": "/Pictures/menu/Салаты/Салат-БЫК-Тейсти.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1100,7 +1100,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "432",
       "category": "Римская пицца",
-      "image": "Pictures/menu/Римская пицца/Пицца-Чоризо.jpg",
+      "image": "/Pictures/menu/Римская пицца/Пицца-Чоризо.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1141,7 +1141,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "203",
       "category": "Римская пицца",
-      "image": "Pictures/menu/Римская пицца/Пицца-Баварская.jpg",
+      "image": "/Pictures/menu/Римская пицца/Пицца-Баварская.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1172,7 +1172,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "202",
       "category": "Римская пицца",
-      "image": "Pictures/menu/Римская пицца/Пицца-Маргарита.jpg",
+      "image": "/Pictures/menu/Римская пицца/Пицца-Маргарита.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1209,7 +1209,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "139",
       "category": "Римская пицца",
-      "image": "Pictures/menu/Римская пицца/Пицца-сырная.jpg",
+      "image": "/Pictures/menu/Римская пицца/Пицца-сырная.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1250,7 +1250,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "164",
       "category": "Римская пицца",
-      "image": "Pictures/menu/Римская пицца/Пицца-Цезарь.jpg",
+      "image": "/Pictures/menu/Римская пицца/Пицца-Цезарь.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1287,7 +1287,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "114",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Чизкейк-баскский.jpg",
+      "image": "/Pictures/menu/Десерты/Чизкейк-баскский.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -1323,7 +1323,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "154",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Фисташковый-рулет.jpg",
+      "image": "/Pictures/menu/Десерты/Фисташковый-рулет.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -1362,7 +1362,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "112",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Шоколадный-фондан.jpg",
+      "image": "/Pictures/menu/Десерты/Шоколадный-фондан.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -1402,7 +1402,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "745",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Медовик.jpg",
+      "image": "/Pictures/menu/Десерты/Медовик.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -1424,7 +1424,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "44",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Мороженое.jpg",
+      "image": "/Pictures/menu/Десерты/Мороженое.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -1463,7 +1463,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "1093",
       "category": "Супы",
-      "image": "Pictures/menu/Супы/Крем-суп-грибной.jpg",
+      "image": "/Pictures/menu/Супы/Крем-суп-грибной.jpg",
       "cutlery": [
         "spoon"
       ]
@@ -1503,7 +1503,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "249",
       "category": "Супы",
-      "image": "Pictures/menu/Супы/Классический-борщ.jpg",
+      "image": "/Pictures/menu/Супы/Классический-борщ.jpg",
       "cutlery": [
         "spoon"
       ]
@@ -1543,7 +1543,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "618",
       "category": "Супы",
-      "image": "Pictures/menu/Супы/Крем-суп-сырный.jpg",
+      "image": "/Pictures/menu/Супы/Крем-суп-сырный.jpg",
       "cutlery": [
         "spoon"
       ]
@@ -1604,7 +1604,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "246",
       "category": "Супы",
-      "image": "Pictures/menu/Супы/Том-ям.jpg",
+      "image": "/Pictures/menu/Супы/Том-ям.jpg",
       "cutlery": [
         "spoon"
       ]
@@ -1646,7 +1646,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "247",
       "category": "Супы",
-      "image": "Pictures/menu/Супы/Бульон-куриный.jpg",
+      "image": "/Pictures/menu/Супы/Бульон-куриный.jpg",
       "cutlery": [
         "spoon"
       ]
@@ -1671,7 +1671,7 @@ const dishesData = {
       "price": "150 рублей",
       "R_keeper": "299",
       "category": "Хлеб",
-      "image": "Pictures/menu/Хлеб/Хлебная-корзина.jpg",
+      "image": "/Pictures/menu/Хлеб/Хлебная-корзина.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1696,7 +1696,7 @@ const dishesData = {
       "price": "150 рублей",
       "R_keeper": "532",
       "category": "Хлеб",
-      "image": "Pictures/menu/Хлеб/Фокачча-с-розмарином.jpg",
+      "image": "/Pictures/menu/Хлеб/Фокачча-с-розмарином.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1721,7 +1721,7 @@ const dishesData = {
       "price": "150 рублей",
       "R_keeper": "533",
       "category": "Хлеб",
-      "image": "Pictures/menu/Хлеб/Фокачча-с-томатами.jpg",
+      "image": "/Pictures/menu/Хлеб/Фокачча-с-томатами.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1767,7 +1767,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "288",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Бифштекс-4-сыра.jpg",
+      "image": "/Pictures/menu/Хоспер/Бифштекс-4-сыра.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1800,7 +1800,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "481",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Стейк-из-индейки.jpg",
+      "image": "/Pictures/menu/Хоспер/Стейк-из-индейки.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -1830,7 +1830,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "257",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Шашлык-из-курицы.jpg",
+      "image": "/Pictures/menu/Хоспер/Шашлык-из-курицы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1862,7 +1862,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "255",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Шашлык-из-свининой-шеи.jpg",
+      "image": "/Pictures/menu/Хоспер/Шашлык-из-свининой-шеи.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1905,7 +1905,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "746",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Медальоны-из-свинины.jpg",
+      "image": "/Pictures/menu/Хоспер/Медальоны-из-свинины.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1937,7 +1937,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "337",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Колбаски-говяжьи.jpg",
+      "image": "/Pictures/menu/Хоспер/Колбаски-говяжьи.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -1969,7 +1969,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "336",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Свиные-Колбаски.jpg",
+      "image": "/Pictures/menu/Хоспер/Свиные-Колбаски.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2001,7 +2001,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "335",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Куриные-колбаски.jpg",
+      "image": "/Pictures/menu/Хоспер/Куриные-колбаски.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2033,7 +2033,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "748",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Колбаски-из-индейки.jpg",
+      "image": "/Pictures/menu/Хоспер/Колбаски-из-индейки.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2082,7 +2082,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "242",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Люлю-кебаб-из-говядины.jpg",
+      "image": "/Pictures/menu/Хоспер/Люлю-кебаб-из-говядины.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2128,7 +2128,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "830",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Люля-из-Индейки.jpg",
+      "image": "/Pictures/menu/Хоспер/Люля-из-Индейки.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2184,7 +2184,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "921",
       "category": "Хоспер",
-      "image": "Pictures/menu/Хоспер/Кесадилья-с-говядиной.jpg",
+      "image": "/Pictures/menu/Хоспер/Кесадилья-с-говядиной.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2216,7 +2216,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "501",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Бефтроганов.jpg",
+      "image": "/Pictures/menu/Разное/Бефтроганов.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2254,7 +2254,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "750",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Свиные-ребра-Терияки.jpg",
+      "image": "/Pictures/menu/Разное/Свиные-ребра-Терияки.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2293,7 +2293,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "751",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Свиные-ребра-Барбекю.jpg",
+      "image": "/Pictures/menu/Разное/Свиные-ребра-Барбекю.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2337,7 +2337,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "752",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Свиные-ребра-Джек-дэниелс.jpg",
+      "image": "/Pictures/menu/Разное/Свиные-ребра-Джек-дэниелс.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2382,7 +2382,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "244",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Говядина-по-тайски.jpg",
+      "image": "/Pictures/menu/Разное/Говядина-по-тайски.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -2426,7 +2426,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "1090",
       "category": "Разное",
-      "image": "Pictures/menu/Разное/Говяжьи-котлеты-с-картофельным-пюре.jpg",
+      "image": "/Pictures/menu/Разное/Говяжьи-котлеты-с-картофельным-пюре.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2471,7 +2471,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "491",
       "category": "Бургеры",
-      "image": "Pictures/menu/Бургеры/Бургер-The-БЫК.jpg",
+      "image": "/Pictures/menu/Бургеры/Бургер-The-БЫК.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2522,7 +2522,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "922",
       "category": "Бургеры",
-      "image": "Pictures/menu/Бургеры/Бургер-Джек-Дениелз.jpg",
+      "image": "/Pictures/menu/Бургеры/Бургер-Джек-Дениелз.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2567,7 +2567,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "259",
       "category": "Бургеры",
-      "image": "Pictures/menu/Бургеры/Бургер-Вишнёвый-бизон.jpg",
+      "image": "/Pictures/menu/Бургеры/Бургер-Вишнёвый-бизон.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2604,7 +2604,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "245",
       "category": "Бургеры",
-      "image": "Pictures/menu/Бургеры/Чизбургер.jpg",
+      "image": "/Pictures/menu/Бургеры/Чизбургер.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2642,7 +2642,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "277",
       "category": "Бургеры",
-      "image": "Pictures/menu/Бургеры/Бургер-с-креветками.jpg",
+      "image": "/Pictures/menu/Бургеры/Бургер-с-креветками.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2664,7 +2664,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "236",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Брокколи.jpg",
+      "image": "/Pictures/menu/Гарниры/Брокколи.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2693,7 +2693,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "239",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Овощи-гриль.jpg",
+      "image": "/Pictures/menu/Гарниры/Овощи-гриль.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2725,7 +2725,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "559",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Рис-с-овощами.jpg",
+      "image": "/Pictures/menu/Гарниры/Рис-с-овощами.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2747,7 +2747,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "233",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофель-фри.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофель-фри.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2776,7 +2776,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "655",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофель-батат-фри.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофель-батат-фри.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2808,7 +2808,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "29",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофель-фри-с-пармезаном.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофель-фри-с-пармезаном.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2830,7 +2830,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "238",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофель-по-деревенски.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофель-по-деревенски.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2866,7 +2866,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "291",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофель-диппер.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофель-диппер.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -2891,7 +2891,7 @@ const dishesData = {
       "price": "400 рублей",
       "R_keeper": "1083",
       "category": "Гарниры",
-      "image": "Pictures/menu/Гарниры/Картофельное-пюре.jpg",
+      "image": "/Pictures/menu/Гарниры/Картофельное-пюре.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3068,7 +3068,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "581",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3094,7 +3094,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "495",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3123,7 +3123,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "366",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3154,7 +3154,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "368",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3180,7 +3180,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "341",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3214,7 +3214,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "342",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3240,7 +3240,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "493",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3270,7 +3270,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "494",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3299,7 +3299,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "343",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3331,7 +3331,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "115",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3361,7 +3361,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "1151",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3397,7 +3397,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "753",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3423,7 +3423,7 @@ const dishesData = {
       "price": "70",
       "R_keeper": "440",
       "category": "Соусы",
-      "image": "Pictures/menu/Соусы/Соусы.jpg",
+      "image": "/Pictures/menu/Соусы/Соусы.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3448,7 +3448,7 @@ const dishesData = {
       "R_keeper": "23",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-рибай-зерно.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-рибай-зерно.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3473,7 +3473,7 @@ const dishesData = {
       "R_keeper": "308",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-стриплойн-зерно.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-стриплойн-зерно.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3498,7 +3498,7 @@ const dishesData = {
       "R_keeper": "194",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-филе-миньон.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-филе-миньон.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3523,7 +3523,7 @@ const dishesData = {
       "R_keeper": "190",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-шато-бриан.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-шато-бриан.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3564,7 +3564,7 @@ const dishesData = {
       "category": "Прайм",
       "upsell": "steak",
       "mandatorySauce": true,
-      "image": "Pictures/menu/Прайм/The-Бык-King-Size.jpg",
+      "image": "/Pictures/menu/Прайм/The-Бык-King-Size.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3589,7 +3589,7 @@ const dishesData = {
       "R_keeper": "266",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-рибай-трава.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-рибай-трава.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3618,7 +3618,7 @@ const dishesData = {
       "R_keeper": "282",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Нью-Йорк.jpg",
+      "image": "/Pictures/menu/Прайм/Нью-Йорк.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3643,7 +3643,7 @@ const dishesData = {
       "R_keeper": "90",
       "category": "Прайм",
       "upsell": "steak",
-      "image": "Pictures/menu/Прайм/Стейк-бавет.jpg",
+      "image": "/Pictures/menu/Прайм/Стейк-бавет.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3670,7 +3670,7 @@ const dishesData = {
       "price": "800",
       "R_keeper": "294",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/стейк-из-форели.jpg",
+      "image": "/Pictures/menu/Прайм/стейк-из-форели.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3695,7 +3695,7 @@ const dishesData = {
       "price": "650",
       "R_keeper": "286",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Дорадо.jpg",
+      "image": "/Pictures/menu/Прайм/Дорадо.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3720,7 +3720,7 @@ const dishesData = {
       "price": "650",
       "R_keeper": "292",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Сибас.jpg",
+      "image": "/Pictures/menu/Прайм/Сибас.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3751,7 +3751,7 @@ const dishesData = {
       "price": "650",
       "R_keeper": "453",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Свиной-Томагавк.jpg",
+      "image": "/Pictures/menu/Прайм/Свиной-Томагавк.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3786,7 +3786,7 @@ const dishesData = {
       "price": "650",
       "R_keeper": "327",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Свиная-рулька.jpg",
+      "image": "/Pictures/menu/Прайм/Свиная-рулька.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -3822,7 +3822,7 @@ const dishesData = {
       "price": "500",
       "R_keeper": "1086",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Паста-болоньезе.jpg",
+      "image": "/Pictures/menu/Прайм/Паста-болоньезе.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3863,7 +3863,7 @@ const dishesData = {
       "price": "500",
       "R_keeper": "1087",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Паста-с-томлёной-щекой.jpg",
+      "image": "/Pictures/menu/Прайм/Паста-с-томлёной-щекой.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3892,7 +3892,7 @@ const dishesData = {
       "price": "650",
       "R_keeper": "676",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Шашлык-из-говядины.jpg",
+      "image": "/Pictures/menu/Прайм/Шашлык-из-говядины.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3929,7 +3929,7 @@ const dishesData = {
       "price": "600",
       "R_keeper": "1088",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Щёки-с-картофельным-пюре.jpg",
+      "image": "/Pictures/menu/Прайм/Щёки-с-картофельным-пюре.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3964,7 +3964,7 @@ const dishesData = {
       "price": "950",
       "R_keeper": "1089",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Форель-слабой-соли.jpg",
+      "image": "/Pictures/menu/Прайм/Форель-слабой-соли.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -3996,7 +3996,7 @@ const dishesData = {
       "price": "550",
       "R_keeper": "1091",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Креветки-пиль-пиль.jpg",
+      "image": "/Pictures/menu/Прайм/Креветки-пиль-пиль.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -4029,7 +4029,7 @@ const dishesData = {
       "price": "800",
       "R_keeper": "1092",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Угольная-треска-с-брокколи.jpg",
+      "image": "/Pictures/menu/Прайм/Угольная-треска-с-брокколи.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -4064,7 +4064,7 @@ const dishesData = {
       "price": "500",
       "R_keeper": "237",
       "category": "Прайм",
-      "image": "Pictures/menu/Прайм/Тартар-из-форели.jpg",
+      "image": "/Pictures/menu/Прайм/Тартар-из-форели.jpg",
       "cutlery": [
         "salad_fork",
         "salad_knife"
@@ -4101,7 +4101,7 @@ const dishesData = {
       "price": "0 рублей",
       "R_keeper": "113",
       "category": "Десерты",
-      "image": "Pictures/menu/Десерты/Чизкейк-баскский.jpg",
+      "image": "/Pictures/menu/Десерты/Чизкейк-баскский.jpg",
       "cutlery": [
         "dessert_spoon"
       ]
@@ -4142,7 +4142,7 @@ const dishesData = {
       "price": "500 рублей",
       "R_keeper": "482",
       "category": "Прайм биф",
-      "image": "Pictures/menu/Прайм биф/Пиканья-на-Питте.jpg",
+      "image": "/Pictures/menu/Прайм биф/Пиканья-на-Питте.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -4190,7 +4190,7 @@ const dishesData = {
       "price": "500 рублей",
       "R_keeper": "1107",
       "category": "Прайм биф",
-      "image": "Pictures/menu/Прайм биф/Ребра-кальби.jpg",
+      "image": "/Pictures/menu/Прайм биф/Ребра-кальби.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -4234,7 +4234,7 @@ const dishesData = {
       "price": "500 рублей",
       "R_keeper": "290",
       "category": "Прайм биф",
-      "image": "Pictures/menu/Прайм биф/Брискет.jpg",
+      "image": "/Pictures/menu/Прайм биф/Брискет.jpg",
       "cutlery": [
         "steak_knife",
         "steak_fork"
@@ -4263,7 +4263,7 @@ const barDrinksData = {
       "price": "350 рублей",
       "R_keeper": "97",
       "category": "НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Минеральная-вода-легенда-байкала (с газом).jpg"
+      "image": "/Pictures/menu/Напитки/Минеральная-вода-легенда-байкала (с газом).jpg"
     },
     {
       "name": "ЛЕГЕНДА БАЙКАЛА НЕГАЗИРОВАННАЯ",
@@ -4281,7 +4281,7 @@ const barDrinksData = {
       "price": "350 рублей",
       "R_keeper": "97",
       "category": "НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Минеральная-вода-легенда-байкала (без газа).jpg"
+      "image": "/Pictures/menu/Напитки/Минеральная-вода-легенда-байкала (без газа).jpg"
     },
     {
       "name": "ПОЛЕЗНАЯ ВОДА FAHRENHEIT",
@@ -4393,7 +4393,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "51",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Кола-Evervess.jpg"
+      "image": "/Pictures/menu/Напитки/Кола-Evervess.jpg"
     },
     {
       "name": "EVERVESS КОЛА БЕЗ САХАРА",
@@ -4414,7 +4414,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "52",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Кола-без-сахара-Evervess.jpg"
+      "image": "/Pictures/menu/Напитки/Кола-без-сахара-Evervess.jpg"
     },
     {
       "name": "EVERVESS ФАНТА",
@@ -4435,7 +4435,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "101",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Апельсин-Evervess.jpg"
+      "image": "/Pictures/menu/Напитки/Апельсин-Evervess.jpg"
     },
     {
       "name": "EVERVESS СПРАЙТ",
@@ -4455,7 +4455,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "136",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Лимон-лайм-Evervess.jpg"
+      "image": "/Pictures/menu/Напитки/Лимон-лайм-Evervess.jpg"
     },
     {
       "name": "EVERVESS ТОНИК",
@@ -4475,7 +4475,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "67",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Тоник-Evervess.jpg"
+      "image": "/Pictures/menu/Напитки/Тоник-Evervess.jpg"
     },
     {
       "name": "МОРС КЛУБНИКА-ГРЕЙПФРУТ",
@@ -4513,7 +4513,7 @@ const barDrinksData = {
       "price": "200 рублей",
       "R_keeper": "153",
       "category": "ГАЗ. НАПИТКИ",
-      "image": "Pictures/menu/Напитки/Adrenaline-Rush.jpg"
+      "image": "/Pictures/menu/Напитки/Adrenaline-Rush.jpg"
     },
     {
       "name": "РЭД БУЛЛ",

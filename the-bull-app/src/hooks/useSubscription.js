@@ -201,29 +201,3 @@ export function useSubscription() {
     FEATURE_ACCESS,
   };
 }
-
-/**
- * Higher-order component to protect features behind subscription
- */
-export function withSubscriptionGate(Component, requiredTier = 'standard') {
-  return function ProtectedComponent(props) {
-    const { tier, hasFeature } = useSubscription();
-    const tierHierarchy = { basic: 0, standard: 1, premium: 2 };
-
-    const hasAccess = tierHierarchy[tier] >= tierHierarchy[requiredTier];
-
-    if (!hasAccess) {
-      return (
-        <div className="subscription-gate">
-          <div className="gate-content">
-            <h2>🔒 Premium Feature</h2>
-            <p>This feature requires a {requiredTier} subscription or higher.</p>
-            <button className="upgrade-btn">Upgrade Now</button>
-          </div>
-        </div>
-      );
-    }
-
-    return <Component {...props} />;
-  };
-}

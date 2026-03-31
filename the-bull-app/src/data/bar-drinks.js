@@ -21,7 +21,7 @@ export const BAR_DRINKS = [
   {
     name: "ПОЛЕЗНАЯ ВОДА FAHRENHEIT",
     category: "НАПИТКИ",
-    image: "/./images/-fahrenheit.jpg",
+    image: "/Pictures/menu/-fahrenheit.jpg",
     composition: ["вода газированная"],
     allergens: [],
     description: "Щелочная вода с правильным балансом электролитов",
@@ -30,7 +30,7 @@ export const BAR_DRINKS = [
   {
     name: "МОРС ЯГОДНЫЙ",
     category: "НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["ягоды"],
     allergens: [],
     description: "-",
@@ -39,7 +39,7 @@ export const BAR_DRINKS = [
   {
     name: "АПЕЛЬСИНОВЫЙ ФРЕШ",
     category: "НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["апельсин"],
     allergens: [],
     description: "Свежевыжатый апельсиновый сок",
@@ -48,7 +48,7 @@ export const BAR_DRINKS = [
   {
     name: "ГРЕЙПФРУТОВЫЙ ФРЕШ",
     category: "НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["грейпфрут"],
     allergens: [],
     description: "Свежевыжатый грейпфрутовый сок",
@@ -57,7 +57,7 @@ export const BAR_DRINKS = [
   {
     name: "СОК В АССОРТИМЕНТЕ",
     category: "НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["фруктовый сок"],
     allergens: [],
     description: "Яблоко, апельсин, вишня, томат — подаются охлажденными",
@@ -111,7 +111,7 @@ export const BAR_DRINKS = [
   {
     name: "МОРС КЛУБНИКА-ГРЕЙПФРУТ",
     category: "ГАЗ. НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["клубника","грейпфрут","газированная вода"],
     allergens: [],
     description: "Используется газированная вода",
@@ -129,7 +129,7 @@ export const BAR_DRINKS = [
   {
     name: "РЭД БУЛЛ",
     category: "ГАЗ. НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["-"],
     allergens: [],
     description: "Energy drink, Sugarfree,The red edition, ",
@@ -138,7 +138,7 @@ export const BAR_DRINKS = [
   {
     name: "ЯЧМЕННЫЙ ЛАГЕР THE БЫК",
     category: "ПИВО",
-    image: "/./images/-the-.jpg",
+    image: "/Pictures/menu/-the-.jpg",
     composition: ["вода","солод","хмель","дрожжи"],
     allergens: [],
     description: "Фирменное светлое пиво THE БЫК, с мягким вкусом и легкой горчинкой",
@@ -147,7 +147,7 @@ export const BAR_DRINKS = [
   {
     name: "Вишневый Эль THE БЫК",
     category: "ПИВО",
-    image: "/./images/-the-.jpg",
+    image: "/Pictures/menu/-the-.jpg",
     composition: ["вода","солод","хмель","дрожжи"],
     allergens: [],
     description: "",
@@ -156,7 +156,7 @@ export const BAR_DRINKS = [
   {
     name: "НЕФИЛЬТРОВАННОЕ THE БЫК",
     category: "ПИВО",
-    image: "/./images/-the-.jpg",
+    image: "/Pictures/menu/-the-.jpg",
     composition: ["вода","солод","хмель"],
     allergens: [],
     description: "Классическое светлое пиво с насыщенным вкусом и сбалансированной горечью",
@@ -165,7 +165,7 @@ export const BAR_DRINKS = [
   {
     name: "ТЕМНОЕ THE БЫК",
     category: "ПИВО",
-    image: "/./images/-the-.jpg",
+    image: "/Pictures/menu/-the-.jpg",
     composition: ["вода","солод","хмель","дрожжи"],
     allergens: [],
     description: "Темное пиво с насыщенным вкусом",
@@ -174,7 +174,7 @@ export const BAR_DRINKS = [
   {
     name: "СИДР THE БЫК",
     category: "ПИВО",
-    image: "/./images/-the-.jpg",
+    image: "/Pictures/menu/-the-.jpg",
     composition: ["яблочный сок","дрожжи"],
     allergens: [],
     description: "Освежающий яблочный сидр с лёгким фруктовым ароматом",
@@ -183,7 +183,7 @@ export const BAR_DRINKS = [
   {
     name: "Б/А PABST (Пабст)",
     category: "ПИВО",
-    image: "/./images/-pavst.jpg",
+    image: "/Pictures/menu/-pavst.jpg",
     composition: ["-"],
     allergens: [],
     description: "Безалкогольное пиво",
@@ -192,7 +192,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД НОМЕР 3",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-3.jpg",
+    image: "/Pictures/menu/-3.jpg",
     composition: ["Драгонфрут","Личи","Кардамон","Содовая","Лёд"],
     allergens: [],
     description: "Безалкогольный лимонад с драгонфрутом, личи и кардамоном",
@@ -201,7 +201,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД НОМЕР 2",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-2.jpg",
+    image: "/Pictures/menu/-2.jpg",
     composition: ["Манго","Маракуйя","Кокос","Содовая","Лёд"],
     allergens: [],
     description: "Безалкогольный лимонад с манго, маракуйей и кокосом",
@@ -210,7 +210,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД НОМЕР 1",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-1.jpg",
+    image: "/Pictures/menu/-1.jpg",
     composition: ["Васильки","Черёмуха","Голубика","Содовая","Лёд"],
     allergens: [],
     description: "Безалкогольный лимонад с васильками, черёмухой и голубикой",
@@ -219,7 +219,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД МАЛИНА & МАРАКУЙЯ",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["малина","маракуйя"],
     allergens: [],
     description: "Лимонад с малиной и маракуйей",
@@ -228,7 +228,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД МОХИТО",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["лайм","мята","сахар","содовая"],
     allergens: [],
     description: "Освежающий лимонад с мятой и лаймом",
@@ -237,7 +237,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД ЛЕСНАЯ ЯГОДА",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["лесные ягоды"],
     allergens: [],
     description: "Лимонад с лесными ягодами",
@@ -246,7 +246,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД ЯБЛОКО-КИВИ",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["яблоко","киви"],
     allergens: [],
     description: "Лимонад с яблоком и киви",
@@ -255,7 +255,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД СВЕЖИЙ МАНДАРИН",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["мандарин"],
     allergens: [],
     description: "Лимонад со свежим мандарином",
@@ -264,7 +264,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНАД ВИШНЯ МИНДАЛЬ",
     category: "ЛИМОНАДЫ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["вишня","миндаль"],
     allergens: [],
     description: "Лимонад с вишней и миндалем",
@@ -273,7 +273,7 @@ export const BAR_DRINKS = [
   {
     name: "ЗЕЛЕНЫЙ И ТРАВЯНОЙ ЛИСТОВОЙ ЧАЙ (Сенча, Жасмин, Молочный Улун, Таежный, Ромашковый, Гречишный)",
     category: "ЧАЙ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["чайные листья"],
     allergens: [],
     description: "Сенча, Жасмин, Молочный Улун, Таежный, Ромашковый, Гречишный",
@@ -282,7 +282,7 @@ export const BAR_DRINKS = [
   {
     name: "ЧЕРНЫЙ И ФРУКТОВЫЙ ЛИСТОВОЙ ЧАЙ (Ассам, Эрл Грей, Фруктовый пунш, Цейлонский с чабрецом)",
     category: "ЧАЙ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["чайные листья","фрукты"],
     allergens: [],
     description: "Ассам, Эрл Грей, Фруктовый пунш, Цейлонский с чабрецом",
@@ -291,7 +291,7 @@ export const BAR_DRINKS = [
   {
     name: "АВТОРСКИЙ ЧАЙ ОБЛЕПИХА & ГРУША",
     category: "ЧАЙ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["облепиха","груша","чай"],
     allergens: [],
     description: "Авторский чай с облепихой и грушей",
@@ -300,7 +300,7 @@ export const BAR_DRINKS = [
   {
     name: "АВТОРСКИЙ ЧАЙ МАНДАРИН & ЧЕРНАЯ СМОРОДИНА",
     category: "ЧАЙ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["мандарин","черная смородина","чай"],
     allergens: [],
     description: "Авторский чай с мандарином и черной смородиной",
@@ -309,7 +309,7 @@ export const BAR_DRINKS = [
   {
     name: "АВТОРСКИЙ ЧАЙ МАНГО & ИМБИРЬ & КАФРСКИЙ ЛАЙМ",
     category: "ЧАЙ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["манго","имбирь","кафрский лайм","чай"],
     allergens: [],
     description: "Авторский чай с манго, имбирем и кафрским лаймом",
@@ -318,7 +318,7 @@ export const BAR_DRINKS = [
   {
     name: "ЭСПРЕССО",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофейные зёрна"],
     allergens: [],
     description: "Классический черный кофе из зерен средней обжарки",
@@ -327,7 +327,7 @@ export const BAR_DRINKS = [
   {
     name: "ДВОЙНОЙ ЭСПРЕССО",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофейные зёрна"],
     allergens: [],
     description: "Классический черный кофе из зерен средней обжарки",
@@ -336,7 +336,7 @@ export const BAR_DRINKS = [
   {
     name: "МОЛОКО",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофейные зёрна"],
     allergens: [],
     description: "Классический черный кофе из зерен средней обжарки",
@@ -345,7 +345,7 @@ export const BAR_DRINKS = [
   {
     name: "АМЕРИКАНО",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофейные зёрна","вода"],
     allergens: [],
     description: "Кофе, приготовленный на основе эспрессо с добавлением горячей воды",
@@ -354,7 +354,7 @@ export const BAR_DRINKS = [
   {
     name: "БАМБЛ АПЕЛЬСИН",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","апельсин"],
     allergens: [],
     description: "Кофейный напиток с апельсином",
@@ -363,7 +363,7 @@ export const BAR_DRINKS = [
   {
     name: "БАМБЛ ГРАНАТ",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","гранат"],
     allergens: [],
     description: "Кофейный напиток с гранатом",
@@ -372,7 +372,7 @@ export const BAR_DRINKS = [
   {
     name: "КАПУЧИНО",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофе","молоко"],
     allergens: [],
     description: "Классический кофейный напиток с густой молочной пеной",
@@ -381,7 +381,7 @@ export const BAR_DRINKS = [
   {
     name: "РАФ",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофе","сливки","ванильный сироп"],
     allergens: [],
     description: "Сливочный кофейный напиток",
@@ -390,7 +390,7 @@ export const BAR_DRINKS = [
   {
     name: "ГЛЯСЕ",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофе","мороженое"],
     allergens: [],
     description: "Кофе с мороженым",
@@ -399,7 +399,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛАТТЕ",
     category: "КОФЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["кофе","молоко"],
     allergens: [],
     description: "Кофейный напиток с молоком",
@@ -408,7 +408,7 @@ export const BAR_DRINKS = [
   {
     name: "ГОРЯЧИЙ ШОКОЛАД",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["шоколад","молоко"],
     allergens: [],
     description: "Горячий шоколад",
@@ -417,7 +417,7 @@ export const BAR_DRINKS = [
   {
     name: "ФИЛЬТР-КОФЕ",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофейные зёрна"],
     allergens: [],
     description: "Фильтр-кофе",
@@ -426,7 +426,7 @@ export const BAR_DRINKS = [
   {
     name: "АЙС ЛАТТЕ КАРАМЕЛЬ-БУЗИНА",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","молоко","карамель","бузина"],
     allergens: [],
     description: "Холодный кофейный напиток с карамелью и бузиной",
@@ -435,7 +435,7 @@ export const BAR_DRINKS = [
   {
     name: "КАПУЧИНО НА АЛЬТЕРНАТИВНОМ МОЛОКЕ",
     category: "КОФЕ НА АЛЬТЕРНАТИВНОМ МОЛОКЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","банановое молоко"],
     allergens: [],
     description: "Капучино на альтернативном банановом молоке",
@@ -444,7 +444,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛАТТЕ НА АЛЬТЕРНАТИВНОМ МОЛОКЕ",
     category: "КОФЕ НА АЛЬТЕРНАТИВНОМ МОЛОКЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","банановое молоко"],
     allergens: [],
     description: "Латте на альтернативном банановом молоке",
@@ -453,7 +453,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛАТТЕ ПЕРСИК-ЧИЛИ",
     category: "КОФЕ НА АЛЬТЕРНАТИВНОМ МОЛОКЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["кофе","банановое молоко"],
     allergens: [],
     description: "Латте пересик-чили",
@@ -462,7 +462,7 @@ export const BAR_DRINKS = [
   {
     name: "КАКАО С МАРШМЕЛЛОУ",
     category: "КОФЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["какао","банановое молоко","маршмеллоу"],
     allergens: [],
     description: "Какао с маршмеллоу на альтернативном банановом молоке",
@@ -471,7 +471,7 @@ export const BAR_DRINKS = [
   {
     name: "БАБЛ ТИ ВИШНЯ-МИНДАЛЬ CHEESE",
     category: "БАБЛ ТИ",
-    image: "/./images/-cheese.jpg",
+    image: "/Pictures/menu/-cheese.jpg",
     composition: ["чай","вишня","миндаль","чиз-пена"],
     allergens: [],
     description: "Чайный напиток с вишней, миндалем и чиз-пеной",
@@ -480,7 +480,7 @@ export const BAR_DRINKS = [
   {
     name: "БАБЛ ТИ МАНГО-МАРАКУЙЯ CHEESE",
     category: "БАБЛ ТИ",
-    image: "/./images/-cheese.jpg",
+    image: "/Pictures/menu/-cheese.jpg",
     composition: ["чай","манго","маракуйя","чиз-пена"],
     allergens: [],
     description: "Чайный напиток с манго, маракуйей и чиз-пеной",
@@ -489,7 +489,7 @@ export const BAR_DRINKS = [
   {
     name: "CHARDONNAY BALAKLAVA, RUSSIA (125 МЛ)",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/chardonnay-balaklava-russia-125-.jpg",
+    image: "/Pictures/menu/chardonnay-balaklava-russia-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Шардоне Брют Балаклава, Золотая Балаклава, Россия",
@@ -498,7 +498,7 @@ export const BAR_DRINKS = [
   {
     name: "ШАРДОНЕ БАЛАКЛАВА | CHARDONNAY BALAKLAVA, RUSSIA (750 МЛ) ",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/chardonnay-balaklava-russia-750-.jpg",
+    image: "/Pictures/menu/chardonnay-balaklava-russia-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Шардоне Брют Балаклава, Золотая Балаклава, Россия",
@@ -507,7 +507,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРКЕС ДЕ ЛАРЕС КАВА DO БРЮТ ЛОПЕС МОРЕНАС | MARQUES DE LARES CAVA DO BRUT LOPEZ MORENAS, SPAIN (125 МЛ)",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/marques-de-lares-cava-do-brut-lopez-morenas-spain-125-.jpg",
+    image: "/Pictures/menu/marques-de-lares-cava-do-brut-lopez-morenas-spain-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Маркес де Ларес Кава DO Брют Лопес Моренас, Испания",
@@ -516,7 +516,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРКЕС ДЕ ЛАРЕС КАВА DO БРЮТ ЛОПЕС МОРЕНАС | MARQUES DE LARES CAVA DO BRUT LOPEZ MORENAS, SPAIN (750 МЛ)",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/marques-de-lares-cava-do-brut-lopez-morenas-spain-750-.jpg",
+    image: "/Pictures/menu/marques-de-lares-cava-do-brut-lopez-morenas-spain-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Маркес де Ларес Кава DO Брют Лопес Моренас, Испания",
@@ -525,7 +525,7 @@ export const BAR_DRINKS = [
   {
     name: "ИГРИСТОЕ ВИНО БРУНИ ПРОСЕКО БРЮТ | BRUNI PROSECCO BRUT (125 МЛ)",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/-bruni-prosecco-brut-125-.jpg",
+    image: "/Pictures/menu/-bruni-prosecco-brut-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Брют Италия, Венето",
@@ -534,7 +534,7 @@ export const BAR_DRINKS = [
   {
     name: "ИГРИСТОЕ ВИНО БРУНИ ПРОСЕКО БРЮТ | BRUNI PROSECCO BRUT (750 МЛ)",
     category: "ИГРИСТОЕ БРЮТ / SPARKLING BRUT",
-    image: "/./images/-bruni-prosecco-brut-750-.jpg",
+    image: "/Pictures/menu/-bruni-prosecco-brut-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Брют Италия, Венето",
@@ -543,7 +543,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ АСТИ | MARTINI ASTI",
     category: "SPLIT BOTTLE",
-    image: "/./images/martini-asti.jpg",
+    image: "/Pictures/menu/martini-asti.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Мартини Асти",
@@ -552,7 +552,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ БРЮТ | MARTINI BRUT",
     category: "SPLIT BOTTLE",
-    image: "/./images/martini-asti.jpg",
+    image: "/Pictures/menu/martini-asti.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Мартини Асти",
@@ -561,7 +561,7 @@ export const BAR_DRINKS = [
   {
     name: "РИСЛИНГ ПОЛУСУХОЕ, ХАНС БАЕР | RIESLING HANS BAER, GERMANY (125 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/riesling-hans-baer-germany-125-.jpg",
+    image: "/Pictures/menu/riesling-hans-baer-germany-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Рислинг Полусухое, Ханс Баер, Германия",
@@ -570,7 +570,7 @@ export const BAR_DRINKS = [
   {
     name: "РИСЛИНГ ПОЛУСУХОЕ, ХАНС БАЕР | RIESLING HANS BAER, GERMANY (750 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/riesling-hans-baer-germany-750-.jpg",
+    image: "/Pictures/menu/riesling-hans-baer-germany-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Рислинг Полусухое, Ханс Баер, Германия",
@@ -579,7 +579,7 @@ export const BAR_DRINKS = [
   {
     name: "АЛЛА МОДА ПИНО ГРИДЖО ДЕЛЛЕ ВЕНЕЦИЯ DOC, СУХОЕ САН МАТТЕО | ALLA MODA PINO GRIGIO DELLE VENEZIE DOC SAN MATTEO, ITALY (125 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/alla-moda-pino-grigio-delle-venezie-doc-san-matteo-italy-125-.jpg",
+    image: "/Pictures/menu/alla-moda-pino-grigio-delle-venezie-doc-san-matteo-italy-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Алла Мода Пино Гриджо делле Венеция DOC, Сухое Сан Маттео, Италия",
@@ -588,7 +588,7 @@ export const BAR_DRINKS = [
   {
     name: "АЛЛА МОДА ПИНО ГРИДЖО ДЕЛЛЕ ВЕНЕЦИЯ DOC, СУХОЕ САН МАТТЕО | ALLA MODA PINO GRIGIO DELLE VENEZIE DOC SAN MATTEO, ITALY (750 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/alla-moda-pino-grigio-delle-venezie-doc-san-matteo-italy-750-.jpg",
+    image: "/Pictures/menu/alla-moda-pino-grigio-delle-venezie-doc-san-matteo-italy-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Алла Мода Пино Гриджо делле Венеция DOC, Сухое Сан Маттео, Италия",
@@ -597,7 +597,7 @@ export const BAR_DRINKS = [
   {
     name: "ПОЛУСУХОЕ ШАРДОНЕ ЛАККИ КАЛАБРИ ВАЙНС | CHARDONNAY LAKKY CALABRIA WINES, AUSTRALIA (125 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/chardonnay-lakky-calabria-wines-australia-125-.jpg",
+    image: "/Pictures/menu/chardonnay-lakky-calabria-wines-australia-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Полусухое Шардоне Лакки Калабри Вайнс, Австралия",
@@ -606,7 +606,7 @@ export const BAR_DRINKS = [
   {
     name: "ПОЛУСУХОЕ ШАРДОНЕ ЛАККИ КАЛАБРИ ВАЙНС | CHARDONNAY LAKKY CALABRIA WINES, AUSTRALIA (750 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/chardonnay-lakky-calabria-wines-australia-750-.jpg",
+    image: "/Pictures/menu/chardonnay-lakky-calabria-wines-australia-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Полусухое Шардоне Лакки Калабри Вайнс, Австралия",
@@ -615,7 +615,7 @@ export const BAR_DRINKS = [
   {
     name: "СОВИНЬОН БЛАН, СУХОЕ, ЛАНГЕДОК-РУССИЙОН | SAUVIGNON BLANC, LE GRAND NOIR (125 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/sauvignon-blanc-le-grand-noir-125-.jpg",
+    image: "/Pictures/menu/sauvignon-blanc-le-grand-noir-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Совиньон блан, сухое, Лангедок-Руссийон, Франция",
@@ -624,7 +624,7 @@ export const BAR_DRINKS = [
   {
     name: "СОВИНЬОН БЛАН, СУХОЕ, ЛАНГЕДОК-РУССИЙОН | SAUVIGNON BLANC, LE GRAND NOIR (750 МЛ)",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/sauvignon-blanc-le-grand-noir-750-.jpg",
+    image: "/Pictures/menu/sauvignon-blanc-le-grand-noir-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Совиньон блан, сухое, Лангедок-Руссийон, Франция",
@@ -633,7 +633,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРЕ & ГРИЛЬ ВИНЬЮ ВЕРДЕ, ПОЛУСУХОЕ | MARE&GRILL VINHO VERDE, PORTUGAL",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/maregrill-vinho-verde-portugal.jpg",
+    image: "/Pictures/menu/maregrill-vinho-verde-portugal.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Маре & Гриль Винью Верде, полусухое, Португалия",
@@ -642,7 +642,7 @@ export const BAR_DRINKS = [
   {
     name: "АЛАЗАНСКАЯ ДОЛИНА ОТ АСКАНЕЛИ, ПОЛУСЛАДКОЕ | ALASANI VALLEY ASKANELI 2024",
     category: "БЕЛОЕ / WHITE",
-    image: "/./images/alasani-valley-askaneli-2024.jpg",
+    image: "/Pictures/menu/alasani-valley-askaneli-2024.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Алазанская Долина от Асканели, Полусладкое, Грузия",
@@ -651,7 +651,7 @@ export const BAR_DRINKS = [
   {
     name: "РАЙСЕС ЛА МАНЧА DO БОДЕТАС ФЕРНАНДО КАСТРО | RAICES LA MANCHA DO BODEGAS FERNANDO CASTRO, SPAIN (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/raices-la-mancha-do-bodegas-fernando-castro-spain-125-.jpg",
+    image: "/Pictures/menu/raices-la-mancha-do-bodegas-fernando-castro-spain-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Райсес Ла Манча DO Бодетас Фернандо Кастро, Испания, Сухое",
@@ -660,7 +660,7 @@ export const BAR_DRINKS = [
   {
     name: "РАЙСЕС ЛА МАНЧА DO БОДЕТАС ФЕРНАНДО КАСТРО | RAICES LA MANCHA DO BODEGAS FERNANDO CASTRO, SPAIN (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/raices-la-mancha-do-bodegas-fernando-castro-spain-750-.jpg",
+    image: "/Pictures/menu/raices-la-mancha-do-bodegas-fernando-castro-spain-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Райсес Ла Манча DO Бодетас Фернандо Кастро, Испания, Сухое",
@@ -669,7 +669,7 @@ export const BAR_DRINKS = [
   {
     name: "ПРИМИТИВО ПРИМАСОЛЕ, АЛУПИЯ, ИТАЛИЯ, ПОЛУСУХОЕ | PRIMITIVO PRIMASOLE, APULIA, ITALY (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/primitivo-primasole-apulia-italy-125-.jpg",
+    image: "/Pictures/menu/primitivo-primasole-apulia-italy-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Примитиво Примасоле, Алупия, Италия, Полусухое",
@@ -678,7 +678,7 @@ export const BAR_DRINKS = [
   {
     name: "ПРИМИТИВО ПРИМАСОЛЕ, АЛУПИЯ, ИТАЛИЯ, ПОЛУСУХОЕ | PRIMITIVO PRIMASOLE, APULIA, ITALY (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/primitivo-primasole-apulia-italy-750-.jpg",
+    image: "/Pictures/menu/primitivo-primasole-apulia-italy-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Примитиво Примасоле, Алупия, Италия, Полусухое",
@@ -687,7 +687,7 @@ export const BAR_DRINKS = [
   {
     name: "ВИНО ГРЕЙТ ЭКСПЕКТЕЙШНС ШИРАЗ ЮАР | GREAT EXPECTATIONS SHIRAZ 2024 (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/-great-expectations-shiraz-2024-125-.jpg",
+    image: "/Pictures/menu/-great-expectations-shiraz-2024-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Грейт Экспектейшнс Шираз ЮАР, Западный Кейп",
@@ -696,7 +696,7 @@ export const BAR_DRINKS = [
   {
     name: "ВИНО ГРЕЙТ ЭКСПЕКТЕЙШНС ШИРАЗ ЮАР | GREAT EXPECTATIONS SHIRAZ 2024 (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/-great-expectations-shiraz-2024-750-.jpg",
+    image: "/Pictures/menu/-great-expectations-shiraz-2024-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Грейт Экспектейшнс Шираз ЮАР, Западный Кейп",
@@ -705,7 +705,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛЯ КРУА ДЮ ПЭН МЕРЛО КРАСНОЕ СУХОЕ | LA CROIX DU PIN MERLOT 2023 (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/la-croix-du-pin-merlot-2023-125-.jpg",
+    image: "/Pictures/menu/la-croix-du-pin-merlot-2023-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Ля Круа дю Пэн Мерло Красное сухое, Чили",
@@ -714,7 +714,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛЯ КРУА ДЮ ПЭН МЕРЛО КРАСНОЕ СУХОЕ | LA CROIX DU PIN MERLOT 2023 (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/la-croix-du-pin-merlot-2023-750-.jpg",
+    image: "/Pictures/menu/la-croix-du-pin-merlot-2023-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Ля Круа дю Пэн Мерло Красное сухое, Чили",
@@ -723,7 +723,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛЯ КРУА ДЮ ПЭН МАЛЬБЕК КРАСНОЕ СУХОЕ | LA CROIX DU PIN MALBEC 2023 (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/la-croix-du-pin-malbec-2023-125-.jpg",
+    image: "/Pictures/menu/la-croix-du-pin-malbec-2023-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Ля Круа дю Пэн Мальбек Красное сухое, Чили",
@@ -732,7 +732,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛЯ КРУА ДЮ ПЭН МАЛЬБЕК КРАСНОЕ СУХОЕ | LA CROIX DU PIN MALBEC 2023 (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/la-croix-du-pin-malbec-2023-750-.jpg",
+    image: "/Pictures/menu/la-croix-du-pin-malbec-2023-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Ля Круа дю Пэн Мальбек Красное сухое, Чили",
@@ -741,7 +741,7 @@ export const BAR_DRINKS = [
   {
     name: "КОНТИ СЕРРИСТОРИ КЬЯНТИ, ТОСКАНА, ИТАЛИЯ, СУХОЕ | CONTI SERRISTORI CHIANTI, TOSCANA, ITALY (125 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/conti-serristori-chianti-toscana-italy-125-.jpg",
+    image: "/Pictures/menu/conti-serristori-chianti-toscana-italy-125-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Конти Серристори Кьянти, Тоскана, Италия, Сухое",
@@ -750,7 +750,7 @@ export const BAR_DRINKS = [
   {
     name: "КОНТИ СЕРРИСТОРИ КЬЯНТИ, ТОСКАНА, ИТАЛИЯ, СУХОЕ | CONTI SERRISTORI CHIANTI, TOSCANA, ITALY (750 МЛ)",
     category: "КРАСНОЕ/RED",
-    image: "/./images/conti-serristori-chianti-toscana-italy-750-.jpg",
+    image: "/Pictures/menu/conti-serristori-chianti-toscana-italy-750-.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Конти Серристори Кьянти, Тоскана, Италия, Сухое",
@@ -759,7 +759,7 @@ export const BAR_DRINKS = [
   {
     name: "ПИНО НУАР ЛЕ ГРАН НУАР ЛЕ СЕЛЬЕ ЖАН Д'АЛИБЕР, ФРАНЦИЯ, ПОЛУСУХОЕ | PINOT NOIR LE GRAND NOIR LES CELLIERS JEAN D'ALIBERT, FRANCE",
     category: "КРАСНОЕ/RED",
-    image: "/./images/pinot-noir-le-grand-noir-les-celliers-jean-dalibert-france.jpg",
+    image: "/Pictures/menu/pinot-noir-le-grand-noir-les-celliers-jean-dalibert-france.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Пино Нуар Ле Гран Нуар Ле Селье Жан д'Алибер, Франция, Полусухое",
@@ -768,7 +768,7 @@ export const BAR_DRINKS = [
   {
     name: "ВАЛЬПОЛИЧЕЛЛА, СУХОЕ САНТЕ РИВЕ ЧЕЛО | VALPOLICELLA SANTE RIVE CIELO, ITALY",
     category: "КРАСНОЕ/RED",
-    image: "/./images/valpolicella-sante-rive-cielo-italy.jpg",
+    image: "/Pictures/menu/valpolicella-sante-rive-cielo-italy.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Вальполичелла, сухое Санте Риве Чело, Италия",
@@ -777,7 +777,7 @@ export const BAR_DRINKS = [
   {
     name: "ШАТО БЕЛЬБЕК САПЕРАВИ ОЛИМП, РОССИЯ, ПОЛУСЛАДКОЕ | CHATEAU BELBEC SAPERAVI OLYMP, RUSSIA",
     category: "КРАСНОЕ/RED",
-    image: "/./images/chateau-belbec-saperavi-olymp-russia.jpg",
+    image: "/Pictures/menu/chateau-belbec-saperavi-olymp-russia.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Шато Бельбек Саперави Олимп, Россия, Полусладкое",
@@ -786,7 +786,7 @@ export const BAR_DRINKS = [
   {
     name: "КАРАС РЕД БЛЕНД, АРМЕНИЯ, СУХОЕ | KARAS RED BLEND 2023",
     category: "КРАСНОЕ/RED",
-    image: "/./images/karas-red-blend-2023.jpg",
+    image: "/Pictures/menu/karas-red-blend-2023.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Карас Ред Бленд, Армения, Сухое",
@@ -795,7 +795,7 @@ export const BAR_DRINKS = [
   {
     name: "Г7 КАБЕРНЕТ СОВИНЬОН ЧИЛИ, СУХОЕ | G7 CABERNET SAUVIGNON CHILE 2022",
     category: "КРАСНОЕ/RED",
-    image: "/./images/g7-cabernet-sauvignon-chile-2022.jpg",
+    image: "/Pictures/menu/g7-cabernet-sauvignon-chile-2022.jpg",
     composition: ["вино"],
     allergens: [],
     description: "Г7 Кабернет Совиньон Чили, Сухое",
@@ -804,7 +804,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ БЬЯНКО | MARTINI BIANCO",
     category: "ВЕРМУТ/VERMOUTH",
-    image: "/./images/martini-bianco.jpg",
+    image: "/Pictures/menu/martini-bianco.jpg",
     composition: ["вермут"],
     allergens: [],
     description: "Мартини Бьянко",
@@ -813,7 +813,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ ЭКСТРА ДРАЙ | MARTINI EXTRA DRY",
     category: "ВЕРМУТ/VERMOUTH",
-    image: "/./images/martini-extra-dry.jpg",
+    image: "/Pictures/menu/martini-extra-dry.jpg",
     composition: ["вермут"],
     allergens: [],
     description: "Мартини Экстра Драй",
@@ -822,7 +822,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ РОССО | MARTINI ROSSO",
     category: "ВЕРМУТ/VERMOUTH",
-    image: "/./images/martini-rosso.jpg",
+    image: "/Pictures/menu/martini-rosso.jpg",
     composition: ["вермут"],
     allergens: [],
     description: "Мартини Россо",
@@ -831,7 +831,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ ФИЕРО | MARTINI FIERO",
     category: "ВЕРМУТ/VERMOUTH",
-    image: "/./images/martini-fiero.jpg",
+    image: "/Pictures/menu/martini-fiero.jpg",
     composition: ["вермут"],
     allergens: [],
     description: "Мартини Фиеро",
@@ -840,7 +840,7 @@ export const BAR_DRINKS = [
   {
     name: "БАРРИСТЕР ДРАЙ | BARRISTER DRY",
     category: "ДЖИН/GIN",
-    image: "/./images/barrister-dry.jpg",
+    image: "/Pictures/menu/barrister-dry.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Барристер Драй",
@@ -849,7 +849,7 @@ export const BAR_DRINKS = [
   {
     name: "БОСФОРД",
     category: "ДЖИН/GIN",
-    image: "/./images/barrister-dry.jpg",
+    image: "/Pictures/menu/barrister-dry.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Барристер Драй",
@@ -858,7 +858,7 @@ export const BAR_DRINKS = [
   {
     name: "БАРРИСТЕР ПИНК | BARRISTER PINK",
     category: "ДЖИН/GIN",
-    image: "/./images/barrister-pink.jpg",
+    image: "/Pictures/menu/barrister-pink.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Барристер Пинк",
@@ -867,7 +867,7 @@ export const BAR_DRINKS = [
   {
     name: "ХОППЕРС ORIGINAL | HOPPERS ORIGINAL",
     category: "ДЖИН/GIN",
-    image: "/./images/hoppers-original.jpg",
+    image: "/Pictures/menu/hoppers-original.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Холперс Original",
@@ -876,7 +876,7 @@ export const BAR_DRINKS = [
   {
     name: "ХОППЕРС МАНДАРИН & РОЗМАРИН | HOPPERS MANDARIN & ROSEMARY",
     category: "ДЖИН/GIN",
-    image: "/./images/hoppers-mandarin-rosemary.jpg",
+    image: "/Pictures/menu/hoppers-mandarin-rosemary.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Холперс Mandarin & Rosemary",
@@ -885,7 +885,7 @@ export const BAR_DRINKS = [
   {
     name: "ХОППЕРС ЛАВАНДА & ЧАБРЕЦ | HOPPERS LAVENDER & THYME",
     category: "ДЖИН/GIN",
-    image: "/./images/hoppers-lavender-thyme.jpg",
+    image: "/Pictures/menu/hoppers-lavender-thyme.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Холперс Lavender & Thyme",
@@ -894,7 +894,7 @@ export const BAR_DRINKS = [
   {
     name: "БОМБЕЙ САПФИР | BOMBAY SAPPHIRE",
     category: "ДЖИН/GIN",
-    image: "/./images/bombay-sapphire.jpg",
+    image: "/Pictures/menu/bombay-sapphire.jpg",
     composition: ["джин"],
     allergens: [],
     description: "Бомбей Салфир",
@@ -903,7 +903,7 @@ export const BAR_DRINKS = [
   {
     name: "КАМПАРИ | CAMPARI",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/campari.jpg",
+    image: "/Pictures/menu/campari.jpg",
     composition: ["биттер"],
     allergens: [],
     description: "Кампари",
@@ -912,7 +912,7 @@ export const BAR_DRINKS = [
   {
     name: "АПЕРОЛЬ | APEROL",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/aperol.jpg",
+    image: "/Pictures/menu/aperol.jpg",
     composition: ["биттер"],
     allergens: [],
     description: "Апероль",
@@ -921,7 +921,7 @@ export const BAR_DRINKS = [
   {
     name: "АМАРЕТТО | AMARETTO",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/amaretto.jpg",
+    image: "/Pictures/menu/amaretto.jpg",
     composition: ["ликер"],
     allergens: [],
     description: "Амаретто",
@@ -930,7 +930,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛИМОНЧЕЛЛО | LIMONCELLO",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/limoncello.jpg",
+    image: "/Pictures/menu/limoncello.jpg",
     composition: ["ликер"],
     allergens: [],
     description: "Лимончелло",
@@ -939,7 +939,7 @@ export const BAR_DRINKS = [
   {
     name: "МАМОНТ БЛЭД | MAMONT BLOOD",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/mamont-blood.jpg",
+    image: "/Pictures/menu/mamont-blood.jpg",
     composition: ["ликер"],
     allergens: [],
     description: "Мамонт Блэд",
@@ -948,7 +948,7 @@ export const BAR_DRINKS = [
   {
     name: "САМБУКА | SAMBUCA",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/sambuca.jpg",
+    image: "/Pictures/menu/sambuca.jpg",
     composition: ["ликер"],
     allergens: [],
     description: "Самбука",
@@ -957,7 +957,7 @@ export const BAR_DRINKS = [
   {
     name: "ЯГЕРМЕЙСТЕР | JAGERMEISTER",
     category: "БИТТЕР/BITTER ЛИКЕРЫ/LIQUEURS",
-    image: "/./images/jagermeister.jpg",
+    image: "/Pictures/menu/jagermeister.jpg",
     composition: ["ликер"],
     allergens: [],
     description: "Егермейстер, Апельсин, Корица молотая",
@@ -966,7 +966,7 @@ export const BAR_DRINKS = [
   {
     name: "ОАКХАРТ ОРИДЖИНАЛ | OAKHEART ORIGINAL",
     category: "POM/RUM",
-    image: "/./images/oakheart-original.jpg",
+    image: "/Pictures/menu/oakheart-original.jpg",
     composition: ["ром"],
     allergens: [],
     description: "Оакхарт Ориджинал",
@@ -975,7 +975,7 @@ export const BAR_DRINKS = [
   {
     name: "ТАКАМАКА БЛАН | TAKAMAKA BLANC",
     category: "POM/RUM",
-    image: "/./images/takamaka-blanc.jpg",
+    image: "/Pictures/menu/takamaka-blanc.jpg",
     composition: ["ром"],
     allergens: [],
     description: "Такамака Блан",
@@ -984,7 +984,7 @@ export const BAR_DRINKS = [
   {
     name: "МЕЗАН ЯМАЙКА ХО | MEZAN JAMAICA XO",
     category: "POM/RUM",
-    image: "/./images/mezan-jamaica-xo.jpg",
+    image: "/Pictures/menu/mezan-jamaica-xo.jpg",
     composition: ["ром"],
     allergens: [],
     description: "Мезан Ямайка ХО",
@@ -993,7 +993,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЮАРС КАРИББИАН 8 лет",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/william-lawsons.jpg",
+    image: "/Pictures/menu/william-lawsons.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Вильям Лоусонс",
@@ -1002,7 +1002,7 @@ export const BAR_DRINKS = [
   {
     name: "ТИЛЛИНГ СМОЛ БЭТЧ",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/william-lawsons.jpg",
+    image: "/Pictures/menu/william-lawsons.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Вильям Лоусонс",
@@ -1011,7 +1011,7 @@ export const BAR_DRINKS = [
   {
     name: "ЧИВАС РИГАЛ 12 ЛЕТ",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/william-lawsons.jpg",
+    image: "/Pictures/menu/william-lawsons.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Вильям Лоусонс",
@@ -1020,7 +1020,7 @@ export const BAR_DRINKS = [
   {
     name: "ВИЛЬЯМ ЛОУСОНС | WILLIAM LAWSON'S",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/william-lawsons.jpg",
+    image: "/Pictures/menu/william-lawsons.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Вильям Лоусонс",
@@ -1029,7 +1029,7 @@ export const BAR_DRINKS = [
   {
     name: "БУШМИЛС | BUSHMILLS",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/bushmills.jpg",
+    image: "/Pictures/menu/bushmills.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Бушмилс",
@@ -1038,7 +1038,7 @@ export const BAR_DRINKS = [
   {
     name: "БУШМИЛС СИНГЛ МОЛТ 10 ЛЕТ | BUSHMILLS SINGLE MOLT 10 ЛЕТ",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/bushmills-single-molt-10-.jpg",
+    image: "/Pictures/menu/bushmills-single-molt-10-.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Бушмилс Сингл Молт 10 лет",
@@ -1047,7 +1047,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЖЕМЕСОН | JAMESON",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/jameson.jpg",
+    image: "/Pictures/menu/jameson.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Джемесон",
@@ -1056,7 +1056,7 @@ export const BAR_DRINKS = [
   {
     name: "ЧИВАС РИГАЛ 12 ЛЕТ | CHIVAS REGAL 12 ЛЕТ",
     category: "ВИСКИ ИРЛАНДИИ & ШОТЛАНДИИ/ WHISKEY IRELAND & SCOTLAND",
-    image: "/./images/chivas-regal-12-.jpg",
+    image: "/Pictures/menu/chivas-regal-12-.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Чивас Ригал 12 лет",
@@ -1065,7 +1065,7 @@ export const BAR_DRINKS = [
   {
     name: "ГАСТРОНОМ КУПАЖ №4 | GASTRONOM BLEND NO4 FOR FISH DISHES",
     category: "ВОДКА/VODKA",
-    image: "/./images/gastronom-blend-no4-for-fish-dishes.jpg",
+    image: "/Pictures/menu/gastronom-blend-no4-for-fish-dishes.jpg",
     composition: ["водка"],
     allergens: [],
     description: "Гастроном Купаж №4, к рыбным блюдам",
@@ -1074,7 +1074,7 @@ export const BAR_DRINKS = [
   {
     name: "ГАСТРОНОМ КУПАЖ №7 | GASTRONOM BLEND NO7 FOR MEAT DISHES",
     category: "ВОДКА/VODKA",
-    image: "/./images/gastronom-blend-no7-for-meat-dishes.jpg",
+    image: "/Pictures/menu/gastronom-blend-no7-for-meat-dishes.jpg",
     composition: ["водка"],
     allergens: [],
     description: "Гастроном Купаж №7, к мясным блюдам",
@@ -1083,7 +1083,7 @@ export const BAR_DRINKS = [
   {
     name: "ЦАРСКАЯ | ROYAL",
     category: "ВОДКА/VODKA",
-    image: "/./images/royal.jpg",
+    image: "/Pictures/menu/royal.jpg",
     composition: ["водка"],
     allergens: [],
     description: "Царская",
@@ -1092,7 +1092,7 @@ export const BAR_DRINKS = [
   {
     name: "МАМОНТ | MAMONT",
     category: "ВОДКА/VODKA",
-    image: "/./images/mamont.jpg",
+    image: "/Pictures/menu/mamont.jpg",
     composition: ["водка"],
     allergens: [],
     description: "Мамонт",
@@ -1101,7 +1101,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН",
     category: "ВОДКА/VODKA",
-    image: "/./images/onegin.jpg",
+    image: "/Pictures/menu/onegin.jpg",
     composition: ["водка"],
     allergens: [],
     description: "Онегин",
@@ -1110,7 +1110,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЖИМ БИМ",
     category: "ВИСКИ ДРУГИХ РЕГИОНОВ/ WHISKEY FROM OTHERS REGIONS",
-    image: "/./images/jim-beam.jpg",
+    image: "/Pictures/menu/jim-beam.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Джим Бим",
@@ -1119,7 +1119,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЖЕК ДЭНИЕЛС",
     category: "ВИСКИ ДРУГИХ РЕГИОНОВ/ WHISKEY FROM OTHERS REGIONS",
-    image: "/./images/jack-daniels.jpg",
+    image: "/Pictures/menu/jack-daniels.jpg",
     composition: ["виски"],
     allergens: [],
     description: "Джек Дэниелс",
@@ -1128,7 +1128,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН ГУРМЭ ЧЕРНОПЛОДНАЯ РЯБИНА",
     category: "ЯГОДНЫЕ НАСТОЙКИ/ BERRY TINCTURES",
-    image: "/./images/onegin-gourmet-chokeberry.jpg",
+    image: "/Pictures/menu/onegin-gourmet-chokeberry.jpg",
     composition: ["настойка"],
     allergens: [],
     description: "Онегин Гурмэ черноплодная рябина",
@@ -1137,7 +1137,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН ГУРМЭ ЧЕРНАЯ СМОРОДИНА",
     category: "ЯГОДНЫЕ НАСТОЙКИ/ BERRY TINCTURES",
-    image: "/./images/onegin-gourmet-black-currant.jpg",
+    image: "/Pictures/menu/onegin-gourmet-black-currant.jpg",
     composition: ["настойка"],
     allergens: [],
     description: "Онегин Гурмэ черная смородина",
@@ -1146,7 +1146,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН ГУРМЭ КУРАГА",
     category: "ЯГОДНЫЕ НАСТОЙКИ/ BERRY TINCTURES",
-    image: "/./images/onegin-gourmet-dried-apricots.jpg",
+    image: "/Pictures/menu/onegin-gourmet-dried-apricots.jpg",
     composition: ["настойка"],
     allergens: [],
     description: "Онегин Гурмэ курага",
@@ -1155,7 +1155,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН ГУРМЭ ВИШНЯ",
     category: "ЯГОДНЫЕ НАСТОЙКИ/ BERRY TINCTURES",
-    image: "/./images/onegin-gourmet-cherry.jpg",
+    image: "/Pictures/menu/onegin-gourmet-cherry.jpg",
     composition: ["настойка"],
     allergens: [],
     description: "Онегин Гурмэ вишня",
@@ -1164,7 +1164,7 @@ export const BAR_DRINKS = [
   {
     name: "ОНЕГИН ГУРМЭ ГРЕЙПФРУТ",
     category: "ЯГОДНЫЕ НАСТОЙКИ/ BERRY TINCTURES",
-    image: "/./images/onegin-gourmet-grapefruit.jpg",
+    image: "/Pictures/menu/onegin-gourmet-grapefruit.jpg",
     composition: ["настойка"],
     allergens: [],
     description: "Онегин Гурмэ грейпфрут",
@@ -1173,7 +1173,7 @@ export const BAR_DRINKS = [
   {
     name: "АРАРАТ 5 ЛЕТ",
     category: "КОНЬЯК & БРЕНДИ/ COGNAC & BRANDY",
-    image: "/./images/ararat-5-years-old.jpg",
+    image: "/Pictures/menu/ararat-5-years-old.jpg",
     composition: ["коньяк"],
     allergens: [],
     description: "Арарат 5 лет",
@@ -1182,7 +1182,7 @@ export const BAR_DRINKS = [
   {
     name: "АРАРАТ АНИ 7 ЛЕТ",
     category: "КОНЬЯК & БРЕНДИ/ COGNAC & BRANDY",
-    image: "/./images/ararat-ani-7-years-old.jpg",
+    image: "/Pictures/menu/ararat-ani-7-years-old.jpg",
     composition: ["коньяк"],
     allergens: [],
     description: "Арарат Ани 7 лет",
@@ -1191,7 +1191,7 @@ export const BAR_DRINKS = [
   {
     name: "АРАРАТ АПРИКОТ",
     category: "КОНЬЯК & БРЕНДИ/ COGNAC & BRANDY",
-    image: "/./images/ararat-apricot.jpg",
+    image: "/Pictures/menu/ararat-apricot.jpg",
     composition: ["коньяк"],
     allergens: [],
     description: "Арарат Априкот",
@@ -1200,7 +1200,7 @@ export const BAR_DRINKS = [
   {
     name: "АРАРАТ АХТАМАР 10 ЛЕТ",
     category: "КОНЬЯК & БРЕНДИ/ COGNAC & BRANDY",
-    image: "/./images/ararat-10-years-old.jpg",
+    image: "/Pictures/menu/ararat-10-years-old.jpg",
     composition: ["коньяк"],
     allergens: [],
     description: "Арарат Ахтамар 10 лет",
@@ -1209,7 +1209,7 @@ export const BAR_DRINKS = [
   {
     name: "БАШ-ГАБРИЕЛЬСЕН ТРЕ КОРС VS",
     category: "КОНЬЯК & БРЕНДИ/ COGNAC & BRANDY",
-    image: "/./images/bache-gabrielsen-tre-kors-vs.jpg",
+    image: "/Pictures/menu/bache-gabrielsen-tre-kors-vs.jpg",
     composition: ["бренди"],
     allergens: [],
     description: "Баш-Габриэльсен Тре Корс BC",
@@ -1218,7 +1218,7 @@ export const BAR_DRINKS = [
   {
     name: "ХОСЕ КУЭРВО ЭСПЕСИАЛЬ СИЛЬВЕР | JOSE CUERVO ESPECIAL SILVER",
     category: "ТЕКИЛА/TEQUILA",
-    image: "/./images/jose-cuervo-especial-silver.jpg",
+    image: "/Pictures/menu/jose-cuervo-especial-silver.jpg",
     composition: ["текила"],
     allergens: [],
     description: "Хосе Куэрво Эспесиаль Сильвер",
@@ -1227,7 +1227,7 @@ export const BAR_DRINKS = [
   {
     name: "ХОСЕ КУЭРВО ЭСПЕСИАЛЬ РЕПОСАДО | JOSE CUERVO ESPECIAL REPOSADO",
     category: "ТЕКИЛА/TEQUILA",
-    image: "/./images/jose-cuervo-especial-reposado.jpg",
+    image: "/Pictures/menu/jose-cuervo-especial-reposado.jpg",
     composition: ["текила"],
     allergens: [],
     description: "Хосе Куэрво Эспесиаль Reposado",
@@ -1236,7 +1236,7 @@ export const BAR_DRINKS = [
   {
     name: "ЭСПОЛОН БЛАНКО | ESPOLON BLANCO",
     category: "ТЕКИЛА/TEQUILA",
-    image: "/./images/espolon-blanco.jpg",
+    image: "/Pictures/menu/espolon-blanco.jpg",
     composition: ["текила"],
     allergens: [],
     description: "Эсполон Бланко",
@@ -1245,7 +1245,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ ФИЕРО-ТОНИК",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Мартини Фиеро","Тоник","Апельсин","Лед"],
     allergens: [],
     description: "Коктейль на основе вермута Мартини Фиеро с тоником и апельсином",
@@ -1254,7 +1254,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРТИНИ ФИЕРО-ТОНИК 1 + 1",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Мартини Фиеро","Тоник","Апельсин","Лед"],
     allergens: [],
     description: "Коктейль на основе вермута Мартини Фиеро с тоником и апельсином",
@@ -1263,7 +1263,7 @@ export const BAR_DRINKS = [
   {
     name: "КУБА-ЛИБРЕ",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Ром Оакхарт Ориджинал","Кола","Лайм","Лед"],
     allergens: [],
     description: "Классический коктейль с ромом и колой",
@@ -1272,7 +1272,7 @@ export const BAR_DRINKS = [
   {
     name: "ВИСКИ-КОЛА",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Виски Вильям Лоусонс","Кола","Лед"],
     allergens: [],
     description: "Коктейль с виски и колой",
@@ -1281,7 +1281,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЖИН ТОНИК",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Холперс Ориджинал","Тоник","Лайм","Лед"],
     allergens: [],
     description: "Классический джин-тоник",
@@ -1290,7 +1290,7 @@ export const BAR_DRINKS = [
   {
     name: "ЛОНГ АЙЛЕНД АЙС ТИ",
     category: "MIX DRINK",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Холперс Ориджинал","Текила La Pavesa","Водка","Апельсиновый ликёр","Ром","Кола","Лед","Лайм"],
     allergens: [],
     description: "Классический крепкий коктейль",
@@ -1299,7 +1299,7 @@ export const BAR_DRINKS = [
   {
     name: "ВИСКИ САУЭР",
     category: "НА ВИСКИ",
-    image: "/./images/-caysp.jpg",
+    image: "/Pictures/menu/-caysp.jpg",
     composition: ["Виски","Пюре лайм","Сахар","Лед"],
     allergens: [],
     description: "Коктейль на виски с лаймом",
@@ -1308,7 +1308,7 @@ export const BAR_DRINKS = [
   {
     name: "ОЛД ФЭШН",
     category: "НА ВИСКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Виски","Сахар","Биттер","Содовая","Лимон","Лед"],
     allergens: [],
     description: "Классический коктейль Олд Фэшн",
@@ -1317,7 +1317,7 @@ export const BAR_DRINKS = [
   {
     name: "ТОТ САМЫЙ АПЕРОЛЬ СПРИТЦ",
     category: "НА ИГРИСТОМ ВИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Аперитив Апероль","Сухое игристое вино","Апельсин","Содовая","Лед"],
     allergens: [],
     description: "Классический Апероль шприц",
@@ -1326,7 +1326,7 @@ export const BAR_DRINKS = [
   {
     name: "САРТИ СПРИТЦ",
     category: "НА ИГРИСТОМ ВИНЕ",
-    image: "/./images/captiv-.jpg",
+    image: "/Pictures/menu/captiv-.jpg",
     composition: ["Аперитив Sarti","Игристое","Содовая","Лайм","Лед"],
     allergens: [],
     description: "Шприц с аперитивом Sarti",
@@ -1335,7 +1335,7 @@ export const BAR_DRINKS = [
   {
     name: "КАМПАРИ СПРИТЦ",
     category: "НА ИГРИСТОМ ВИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Кампари","Сухое игристое вино","Апельсин","Содовая","Лед"],
     allergens: [],
     description: "Шприц с Кампари",
@@ -1344,7 +1344,7 @@ export const BAR_DRINKS = [
   {
     name: "ПЕРСИКОВЫЙ СПРИТЦ",
     category: "НА ИГРИСТОМ ВИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Игристое","Ром","Сироп персик","Пюре лайм","Сушеный кумкват в сахаре","Лед"],
     allergens: [],
     description: "Фруктовый шприц с персиком",
@@ -1353,7 +1353,7 @@ export const BAR_DRINKS = [
   {
     name: "ФИСТАШКОВЫЙ СПРИТЦ",
     category: "НА ИГРИСТОМ ВИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Холперс Ориджинал","Игристое","Сироп фисташка","Сироп Попкорн","Пюре лайм","Фисташки","Лед"],
     allergens: [],
     description: "Экзотический шприц с фисташками",
@@ -1362,7 +1362,7 @@ export const BAR_DRINKS = [
   {
     name: "КОСМОПОЛИТЕН",
     category: "НА ВОДКЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Водка","Апельсиновый ликёр","Морс","Лед"],
     allergens: [],
     description: "Классический коктейль Космополитен",
@@ -1371,7 +1371,7 @@ export const BAR_DRINKS = [
   {
     name: "БЕЛЫЙ РУССКИЙ",
     category: "НА ВОДКЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Водка","Кофейный ликёр Gambini","Сливки","Лед"],
     allergens: [],
     description: "Сливочный коктейль Белый Русский",
@@ -1380,7 +1380,7 @@ export const BAR_DRINKS = [
   {
     name: "МАМОНТ МУЛ",
     category: "НА ВОДКЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Водка","Имбирное пюре","Пюре лайм","Тоник","Лед","Сахарный сироп"],
     allergens: [],
     description: "Московский мул с водкой",
@@ -1389,7 +1389,7 @@ export const BAR_DRINKS = [
   {
     name: "ГЛИНТВЕЙН",
     category: "ГОРЯЧИЕ НАПИТКИ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Вино","Апельсин","Яблоко","Корица","Гвоздика"],
     allergens: [],
     description: "Горячий глинтвейн",
@@ -1398,7 +1398,7 @@ export const BAR_DRINKS = [
   {
     name: "ГЛИНТВЕЙН Б/А",
     category: "ГОРЯЧИЕ НАПИТКИ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Вино","Апельсин","Яблоко","Корица","Гвоздика"],
     allergens: [],
     description: "Горячий глинтвейн безалкогольный",
@@ -1407,7 +1407,7 @@ export const BAR_DRINKS = [
   {
     name: "ГРОГ",
     category: "ГОРЯЧИЕ НАПИТКИ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Ром","Яблоко","Лимон","Корица","Чай Ассам","Сахар"],
     allergens: [],
     description: "Горячий грог с ромом",
@@ -1416,7 +1416,7 @@ export const BAR_DRINKS = [
   {
     name: "КОФЕ ПО-ИРЛАНДСКИ",
     category: "ГОРЯЧИЕ НАПИТКИ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Виски","Кофе","Ванильное мороженое"],
     allergens: [],
     description: "Горячий кофе по-ирландски",
@@ -1425,7 +1425,7 @@ export const BAR_DRINKS = [
   {
     name: "КЛОВЕР КЛАБ",
     category: "НА ДЖИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Холперс Ориджинал","Апельсиновый ликёр","Пюре малина","Пюре лайм","Лед","Сахарный сироп"],
     allergens: [],
     description: "Коктейль Кловер Клаб на джине",
@@ -1434,7 +1434,7 @@ export const BAR_DRINKS = [
   {
     name: "СИНГАПУР",
     category: "НА ДЖИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Холперс Ориджинал","Вишневый ликёр","Апельсиновый ликёр","Ананасовый сок","Лед"],
     allergens: [],
     description: "Классический Сингапур Слинг",
@@ -1443,7 +1443,7 @@ export const BAR_DRINKS = [
   {
     name: "НЕГРОНИ",
     category: "НА ДЖИНЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Холперс Ориджинал","Кампари","Мартини Россо","Лед","Цедра-апельсин"],
     allergens: [],
     description: "Классический Негрони",
@@ -1452,7 +1452,7 @@ export const BAR_DRINKS = [
   {
     name: "ДЖИН ФИЗЗ",
     category: "НА ДЖИНЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Джин на анчане","Пюре лайм","Содовая","Сахарный сироп","Лайм","Лед"],
     allergens: [],
     description: "Игривый джин физз",
@@ -1461,7 +1461,7 @@ export const BAR_DRINKS = [
   {
     name: "THE БЫК НОМЕР 1 | THE БЫК NUMBER ONE",
     category: "THE БЫК",
-    image: "/./images/the-number-one.jpg",
+    image: "/Pictures/menu/the-number-one.jpg",
     composition: ["Холперс Ориджинал","Кастелла Кейк","Клубника","Бобы Тонка","Пюре лайма","Сахарный сироп","Лед"],
     allergens: [],
     description: "Фирменный коктейль THE БЫК №1",
@@ -1470,7 +1470,7 @@ export const BAR_DRINKS = [
   {
     name: "THE БЫК НОМЕР 2 | THE БЫК NUMBER TWO",
     category: "THE БЫК",
-    image: "/./images/the-number-two.jpg",
+    image: "/Pictures/menu/the-number-two.jpg",
     composition: ["Водка","Панаан","Банан","б/а Вермут","Пюре лайма","Сахарный сироп","Лед"],
     allergens: [],
     description: "Фирменный коктейль THE БЫК №2",
@@ -1479,7 +1479,7 @@ export const BAR_DRINKS = [
   {
     name: "THE БЫК НОМЕР 3 | THE БЫК NUMBER THREE",
     category: "THE БЫК",
-    image: "/./images/the-number-three.jpg",
+    image: "/Pictures/menu/the-number-three.jpg",
     composition: ["Холперс Ориджинал","Персик Ханибуш","Эстрагон","Пюре лайма","Сахарный сироп","Лед"],
     allergens: [],
     description: "Фирменный коктейль THE БЫК №3",
@@ -1488,7 +1488,7 @@ export const BAR_DRINKS = [
   {
     name: "МАРГАРИТА-МАРАКУЙЯ",
     category: "НА ТЕКИЛЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Текила","Апельсиновый ликёр","Кумкват","Пюре маракуйя","Сахарный сироп","Лайм","Лед"],
     allergens: [],
     description: "Маргарита с маракуйей",
@@ -1497,7 +1497,7 @@ export const BAR_DRINKS = [
   {
     name: "ТЕКИЛА-САНРАЙЗ",
     category: "НА ТЕКИЛЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Текила","Апельсиновый сок","Клюквенный морс","Лед","Вишневый ликёр"],
     allergens: [],
     description: "Классическая Текила Санрайз",
@@ -1506,7 +1506,7 @@ export const BAR_DRINKS = [
   {
     name: "ПАЛОМА",
     category: "НА ТЕКИЛЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Текила","Морс клубника-грейпфрут","Лайм","Сахарный сироп","Лед","Содовая","Пюре лайм"],
     allergens: [],
     description: "Мексиканский коктейль Палома",
@@ -1515,7 +1515,7 @@ export const BAR_DRINKS = [
   {
     name: "Б - 52",
     category: "ШОТЫ",
-    image: "/./images/5-52.jpg",
+    image: "/Pictures/menu/5-52.jpg",
     composition: ["Кофейный","Сливочный","Апельсиновый ликеры"],
     allergens: [],
     description: "Шот Б - 52",
@@ -1524,7 +1524,7 @@ export const BAR_DRINKS = [
   {
     name: "КРАСНЫЙ СЕТ | RED SET",
     category: "ШОТЫ",
-    image: "/./images/red-set.jpg",
+    image: "/Pictures/menu/red-set.jpg",
     composition: ["Ром Оакхарт Ориджинал","Вишневый ликёр","Пюре вишня","Лед","Гранатовый сок","Сахарный сироп"],
     allergens: [],
     description: "Набор шотов Red Set",
@@ -1533,7 +1533,7 @@ export const BAR_DRINKS = [
   {
     name: "ЖЕЛТЫЙ СЕТ | YELLOW SET",
     category: "ШОТЫ",
-    image: "/./images/yellow-set.jpg",
+    image: "/Pictures/menu/yellow-set.jpg",
     composition: ["Ром","Апельсиновый ликёр","Пюре маракуйя","Лед","Ананасовый сок","Сахарный сироп"],
     allergens: [],
     description: "Набор шотов Yellow Set",
@@ -1542,7 +1542,7 @@ export const BAR_DRINKS = [
   {
     name: "ЗЕЛЕНЫЙ СЕТ | GREEN SET",
     category: "ШОТЫ",
-    image: "/./images/green-set.jpg",
+    image: "/Pictures/menu/green-set.jpg",
     composition: ["Текила","Апельсиновый ликёр","Пюре киви","Лед","Яблочный сок","Сироп киви","Сахарный сироп"],
     allergens: [],
     description: "Набор шотов Green Set",
@@ -1551,7 +1551,7 @@ export const BAR_DRINKS = [
   {
     name: "КОМБО СЕТ | COMBO SET",
     category: "ШОТЫ",
-    image: "/./images/combo-set.jpg",
+    image: "/Pictures/menu/combo-set.jpg",
     composition: ["RED SET","YELLOW SET","GREEN SET"],
     allergens: [],
     description: "Комбо набор шотов",
@@ -1560,7 +1560,7 @@ export const BAR_DRINKS = [
   {
     name: "ЯГОДНЫЙ ДАЙКИРИ",
     category: "НА РОМЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Ром пряный","Ягодное пюре","Лайм","Лед","Сахарный сироп","Пюре лайм"],
     allergens: [],
     description: "Дайкири с ягодами",
@@ -1569,7 +1569,7 @@ export const BAR_DRINKS = [
   {
     name: "МАЙ ТАЙ",
     category: "НА РОМЕ",
-    image: "/./images/-.jpg",
+    image: "/Pictures/menu/-.jpg",
     composition: ["Ром Caribbean","Миндальный ликёр","Лайм","Ананасовый сок","Лед","Апельсиновый ликёр","Сахарный сироп"],
     allergens: [],
     description: "Тропический коктейль Май Тай",
@@ -1578,7 +1578,7 @@ export const BAR_DRINKS = [
   {
     name: "МОХИТО",
     category: "НА РОМЕ",
-    image: "/./images/.jpg",
+    image: "/Pictures/menu/.jpg",
     composition: ["Ром","Лайм","Мята","Сахар","Содовая","Лед"],
     allergens: [],
     description: "Классический Мохито",
